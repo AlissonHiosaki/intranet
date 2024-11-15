@@ -1,0 +1,39 @@
+http://ua-appweb02/AppAlmoxarifadoNew/AppalmoxarifadoNew.dll/?TELA=TFRMRECEBIMENTOLOJAS&HTN=84EE76FD recebimento
+http://ua-appweb02/AppAlmoxarifadoNew/AppAlmoxarifadoNew.dll/?TELA=TfrmSacolas&HTN=EF7AFB63 controle
+http://ua-appweb02/AppAlmoxarifadoNew/AppAlmoxarifadoNew.dll/?TELA=tfrmSolicitacoes&HTN=F570F179 solicitar
+http://ua-appweb02/AppLogisticaNew/?HTN=1D0968CF logistica
+http://ua-appweb02/AppProcedimentos//?HTN=C8A283E8 procedimentos
+http://ua-appweb02/AppConferenciaMarca/?HTN=046EF77F inventario / produtos
+http://ua-appweb/AppProdutos/?TELA='0'&HTN=79F57FE4 consulta / produtos
+http://ua-appweb02/AppAvalDesempenho/AppAvalDesempenho.dll/?HTN=4DD95BC0 gestao de desen./ rh
+http://ua-appweb02/AppIndOperacoes//?HTN=3C363F24 indicadores / retaguarda
+http://ua-appweb02/AppRetaguarda/?HTN=2A046DF2 retaguarda / retaguarda 
+http://10.99.10.41/AppDespesas/?TELA=APPDESPESA&HTN=54DE462D despesa de viagem / unidade administrativa
+http://ua-appweb02/AppEquipeHTNUAFront/?HTN=7BF57DE755 equipe ua / unidade adminisrativa
+http://ua-appweb02/AppODC/?HTN=B7B3B2B9 emissão de nf / unidade administrativa
+http://ua-appweb02/AppIndicadores/?TELA=TFRTOPMAIS&HTN=A983EC72 mais vendido / indicadores
+http://ua-appweb02/AppIndicadores/?TELA=TFRVENDASZERO&HTN=E34CD75F venda zero / indicadores
+http://ua-appweb02/AppIndicadores/?TELA=TfrUltimosPares&HTN=BFA98A91 ultimos pares / indicadores
+http://10.99.10.41/AppComercial/?TELA=TFrVendasHora&HTN=68C0A388 vendas horas / incadores
+http://ua-appweb/AppFolha/?TELA=TfrVendedorExtra&HTN=8EE6482F cadastro de extra / departamento pessoal
+http://ua-appweb02/AppCampanhaNew//?HTN=17111219 campanha / markting
+http://ua-appweb/AppFolha/?TELA=TfrVendedorExtra&HTN=9A929D82 cadastro de extra / retarguarda
+http://ua-appweb02/AppControleSistemas/?HTN=C5AFB4BCA1 controle de sistema / suporte
+http://ua-appweb02/AppImgCampanhas/?HTN=BCB4B3BDA2# Plano de Fundo / suporte
+
+
+<iframe 
+class="x-component x-abs-layout-item x-component-default" 
+
+onload="iframe_load('O5C_id')" name="name_frmSistema_O5C" title="title_frmSistema_O5C" 
+
+src="http://ua-appweb02/AppRetaguarda/?HTN=2A046DF2"
+ frameborder="0" 
+id="component-1011">
+</iframe>
+
+
+
+
+
+
