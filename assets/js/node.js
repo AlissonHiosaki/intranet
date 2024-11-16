@@ -5,7 +5,9 @@ function logar() {
 
     // Simulação de usuários válidos (aqui você pode conectar a uma API ou banco de dados)
     const usuariosValidos = {
-        estoque42: 'estoque42@', // Exemplo de credenciais
+        estoque42: 'estoque42@', 
+        admin: 'admin',
+        vmdl42: 'huma42', // Exemplo de credenciais
         // Adicione mais usuários conforme necessário
     };
 

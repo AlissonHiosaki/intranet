@@ -14,28 +14,31 @@
   h1{
     color: #fff;
     display: auto;
-    font-size: 30px;
+    font-size: 20px;
     padding: 10px;
     background-color: transparent;
     backdrop-filter: blur(20px);
     transition: 200ms;
   }
-
-  h1:hover{
-    color: #AEEA00;
-    transform: scaleX(1.4);
-  }
-  
   /* iframes instalando na webpage */
   iframe{
-    width: 90%;
-    height: 800px;
+    width: 93%;
+    height: 100%;
+    margin-left: 50px;
     
   } 
+  img{
+    width: 60%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 200ms;
+  }
   
   /* ESTILO MENU LATERAL */
   nav,manu-lateral{ 
-    width: 50px;
+    width: 60px;
     height: 100%;
     background-color: transparent;
     backdrop-filter: blur(20px);
@@ -50,7 +53,7 @@
   
   /* TRASIÇÃO DO MENU LATERAL */
   nav.menu-lateral.expandir{ 
-      width:210px;
+      width:330px;
   }
   
   /* BTN EXPANDIR */
@@ -92,7 +95,7 @@
     color: #fff;
     text-decoration: none;
     font-size: 20px;
-    padding: 15px 4%;
+    padding: 5px 4%;
     display: flex;
     margin-bottom: 20px;
     line-height: 30px;

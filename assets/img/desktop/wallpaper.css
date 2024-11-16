@@ -2,18 +2,18 @@
 /* Configuração de plano de fundo */
 body{
   height: 100vh;
-  background: url(../desktop.png);  
+  background: url(../banner_desktop_cliente_no_centro.png);  
   background-position: center;
-  background-size: 1800px;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 /*mobile*/ 
 @media (max-width: 800px){
   body{
-      background: url(../banner_mobile.png);
+      background: black;
       background-position: center;
       background-size: 1200px;
-  
 }
 }
 /*motor de renderização de imagens*/
