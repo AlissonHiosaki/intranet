@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit',Sans-Serif;
+  
+
+}
+/* SUBTITULO */
+header{
+  color: #fff;
+  display: flex;
+  justify-content: end;
+  font-size: 50px;
+  padding: 10px;
+  background-color: black;
+  backdrop-filter: blur(20px);
+  border-block-end: 4px solid #AEEA00;
+}
+
+.logohtn{ /* posicionar img no inicio*/
+  display: flex;
+  margin-right: 160vh;
+ }
+
+.icon_header{
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #AEEA00;
+  margin-left: 30px;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+ }
+ 
+.logoutButton{
+  cursor: pointer;
+  background-color: #AEEA00;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 13px;
+  font-size: 17px;
+}
+body{
+  margin: 0;
+  padding: 0px;
+  width: 100%;
+  height: 100dvh;
+}
+
+/* ESTILO MENU LATERAL */
+nav,manu-lateral{ 
+  width: 90px;
+  height: 100%;
+  background-color: black;
+  backdrop-filter: blur(100px);
+  padding: 40px 0 40px 1%;
+  box-shadow: 5px 0 0  #AEEA00;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  transition: .5s;
+}
+
+/* MENU LATERAL ESPANDIR*/
+nav.menu-lateral.expandir{ 
+    width: 280px;
+}
+
+/* FUNÇÃO BTN EXPANDIR */
+.btn-expandir{ 
+  width: 100%;
+  padding-left: 10px;
+}
+
+/* BTN EXPANDIR  */
+.btn-expandir > i{
+  color: #fff;
+  text-shadow: #333;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* DIVISORIO DOS MENUS */
+ul{
+  height: 100%;
+  list-style-type: none;
+}
+
+/* MENU ITEM */
+ul li.item-menu{
+    transition: .4s;
+}
+
+/* COR MENU SELECT */
+ul li.ativo{
+  background-color: #AEEA00;
+  color: black;
+}
+
+/* ANIMAÇÃO DO MENU */
+ul li.item-menu:hover{
+    background:  #AEEA00;
+}
+
+/* DIVISORIO DO ITEM MENU */
+ul li.item-menu a{
+  color: #ffffff;
+  text-shadow: 2px 4px 5px black;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 20px 4%;
+  display: flex;
+  margin-bottom: 0px;
+  line-height: 30px;
+}
+ 
+/* ESTILO DO TXT DO MENU */
+ul li.item-menu a .txt-link{
+  margin-left: 40px;
+  transition: .5s;
+  opacity: 0;
+}
+
+/* ANIMAÇÃO DO TXT DO MENU */
+nav.menu-lateral.expandir .txt-link{
+  margin-left: 10px;
+  opacity: 1;
+}
+
+/* CONFIG. LINK ICON MENU */
+ul li.item-menu a .icon > i{
+  font-size: 30px;
+  margin-left: 10px;
+
+}
+
+/*barra de navegação do navegador*/
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background:#333;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #AEEA00;
+  border-radius: 20px;
+}
+
+iframe {
+  border: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* @media iframe responsiva*/
+
+@media screen and (max-width: 2900px ) {
+  iframe{ /*67%*/
+    margin-top:0px;
+    margin-left:95px;
+    width: 96.7%;
+    height:93.4vh;
+  }
+}
+
+@media screen and (max-width: 2600px ) {
+  iframe{ /*75%*/
+    margin-top:0px;
+    margin-left:95px;
+    width: 96.3%;
+    height:92.4vh;
+  }
+}
+
+@media screen and (max-width: 2400px ) {
+  iframe{ /*80%*/
+    margin-top:0px;
+    margin-left:95px;
+    width: 96.02%;
+    height:92.1vh;
+  }
+}
+
+@media screen and (max-width: 2200px ) {
+  iframe{ /*90%*/
+    margin-top:0px;
+    margin-left:95px;
+    width: 95.5%;
+    height:91.05vh;
+  }
+}
+
+@media screen and (max-width: 2000px) {
+  iframe{ /*100%*/
+    margin-top:0px;
+    margin-left:95px;
+    width:95.05%;
+    height:90.06vh;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 1900px) {
+  iframe{ /*110%*/
+    margin-top:0px;
+    margin-left:95px;
+    width:94.5%;
+    height:89.07vh;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 1700px) {
+  .responsive-iframe iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none; /* Remove bordas padrão do navegador */
+  
+  
+  }
+}
+
+
+  
