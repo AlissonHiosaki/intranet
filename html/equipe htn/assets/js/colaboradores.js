@@ -38,15 +38,6 @@
         },
         {
             foto: 'assets/photos/profile.png',
-            categoria: ['estoque'],
-            nome: 'CAUAN SILVA',
-            matricula: '45215 ',
-            cargo: 'ASSISTENTE DE OPERACOES ',
-            setor: 'ESTOQUE',
-            dataAdmissao:'18/11/2024',
-        },
-        {
-            foto: 'assets/photos/profile.png',
             categoria: ['idc'],
             nome: 'CRISTIANE BENTO',
             matricula: '45113',
@@ -98,6 +89,15 @@
             cargo: 'OPERADORA DE LOJA',
             setor: 'CAIXA/CREDIARIO',
             dataAdmissao:'01/09/2023',
+        },
+        {
+            foto: 'assets/photos/profile.png,
+            categoria: ['estoque'],
+            nome: 'GERSON',
+            matricula: '000000',
+            cargo: 'ASSISTENTE DE OPERAÇÃO',
+            setor: 'ESTOQUE',
+            dataAdmissao:'25/11/2024',
         },
         {
             foto: 'assets/photos/profile.png',
