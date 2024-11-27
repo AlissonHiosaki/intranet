@@ -1,9 +1,9 @@
    // Simulando informações do usuário logado
    const user = {
-    name: "Estoque 42",
-    email: "operações42@htn.com.br",
+    name: "Admin",
+    email: "app.tester@htn.com.br",
     local:"Unidade 42",
-    avatar: "../../assets/img/profile.png"
+    avatar: "assets/img/profile.png"
 };
 
 // Função para abrir o popup com os dados do usuário
