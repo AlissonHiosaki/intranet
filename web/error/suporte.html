@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suporte do Servidor</title>
+    <style>
+        /* Estilos do formulário */
+        body {
+            font-family: Arial, sans-serif;
+            backdrop-filter: blur(30px);
+            background-image: url('../../assets/img/banner_desktop_cliente_no_centro.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .support-container {
+            background: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            max-width: 400px;
+            width: 100%;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input, textarea, button {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        textarea {
+            resize: vertical;
+        }
+        button {
+            background-color: #28a745;
+            color: #fff;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        .contact-info {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .contact-info p {
+            margin: 5px 0;
+            color: #555;
+        }
+        .contact-info a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .message {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .message.success {
+            color: #28a745;
+        }
+        .message.error {
+            color: #dc3545;
+        }
+    </style>
+</head>
+<body>
+    <div class="support-container">
+        <h1>Suporte do Servidor</h1>
+        <form id="supportForm">
+            <div class="form-group">
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+            </div>
+            <div class="form-group">
+                <label for="issue">Descrição do Problema</label>
+                <textarea id="issue" name="issue" rows="5" placeholder="Descreva o problema enfrentado..." required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="message" class="message"></div>
+        <div class="contact-info">
+            <p>Ou entre em contato diretamente:</p>
+            <p>E-mail: <a href="mailto:suporte@intranet-blume.com">suporte@intranet-blume.com</a></p>
+            <p>Telefone: <a href="tel:+5516920016949">+55 16 9200-16949</a></p>
+        </div>
+    </div>
+    <script>
+        document.getElementById('supportForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const issue = document.getElementById('issue').value.trim();
+            const message = document.getElementById('message');
+
+            // Validação básica
+            if (!name || !email || !issue) {
+                message.textContent = 'Por favor, preencha todos os campos.';
+                message.className = 'message error';
+                return;
+            }
+
+            // Simula o envio dos dados para o servidor
+            fetch('/enviar-suporte', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ name, email, issue }),
+            })
+            .then(response => {
+                if (response.ok) {
+                    message.textContent = 'Solicitação enviada com sucesso! Entraremos em contato em breve.';
+                    message.className = 'message success';
+                    document.getElementById('supportForm').reset();
+                } else {
+                    throw new Error('Erro ao enviar a solicitação. Tente novamente.');
+                }
+            })
+            .catch(error => {
+                message.textContent = error.message;
+                message.className = 'message error';
+            });
+        });
+    </script>
+    
+ <!--Proteção contra alterações na URL da web-->
+<script src="../../assets/js/secure/monitoring_url.js"></script>
+<!--Proteção contra alterações no local no site ou no index-->
+<script src="../../assets/js/secure/disable_web.js"></script>
+</body>
+</html>
