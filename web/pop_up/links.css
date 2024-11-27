@@ -30,7 +30,7 @@ button:hover {
 }
 
 /* Estilo do popup */
-.popup {
+.link {
     display: none;
     position: fixed;
     left: 50%;
@@ -47,18 +47,18 @@ button:hover {
     text-align: center;
 }
 
-.popup h2 {
+.link h2 {
     margin-top: 0;
     font-size: 1.5em;
     color: #AEEA00;
 }
 
-.popup p {
+.link p {
     font-size: 1em;
     margin: 15px 0;
 }
 
-.popup a {
+.link a {
     display: inline-block;
     text-decoration: none;
     color: black;
@@ -69,11 +69,11 @@ button:hover {
     transition: background 0.3s;
 }
 
-.popup a:hover {
+.link a:hover {
     background-color: #9ccc00;
 }
 
-.popup button {
+.link button {
     margin-top: 20px;
     padding: 8px 15px;
     font-size: 14px;

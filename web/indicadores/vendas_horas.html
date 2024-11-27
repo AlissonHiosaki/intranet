@@ -40,26 +40,73 @@
     <script src="../pop_up/user.js"></script>
     <link rel="stylesheet" href="../pop_up/ramal.css">
     <script src="../pop_up/ramal.js"></script>
+    <link rel="stylesheet" href="../pop_up/links.css">
+    <script src="../pop_up/links.js"></script>
+    <link rel="stylesheet" href="../pop_up/notify.css">
+    <script src="../pop_up/notify.js"></script>
+    <link rel="stylesheet" href="../pop_up/iframe.css">
+    <script src="../pop_up/iframe.js"></script>
     <title>Portal Intranet</title>
 </head>
 <body>
 
 <header> 
         <img class="logohtn" src="../../assets/logo/LOGO_MAIOR.png" width="80px" height="45px" alt="logohtn">
-
+        <img class="icon_header" onclick="getWeather()" width="47px" height="47" src="../../assets/img/icon/clima.png" alt="clima"><!--clima-->
+        <img class="icon_header" onclick="openPopup()" src="../../assets/img/icon/truck.png" alt="truck">
+        <img class="icon_header" onclick="togglePanel()" src="../../assets/img/icon/notify.png" alt="notify">
+        <img class="icon_header" onclick="openLink()" src="../../assets/img/icon/links.png" alt="link">
         <img class="icon_header" onclick="showPhonebookPopup()" src="../../assets/img/icon/ramal.png" alt="ramal">
-        <img class="icon_header" onclick="showWeatherPopup()" width="47px" height="47" src="../../assets/img/icon/clima.png" alt="">
-        <img class="icon_header" onclick="showProfilePopup()"src="../../assets/img/icon/perfil.png" width="47px" alt="user">
+        <img class="icon_header" onclick="showProfilePopup()"src="../../assets/img/icon/perfil.png" width="47px" alt="login">
+
 </header>
 <!-- area de modal web -->
+ <!-- Overlay -->
+ <div class="overlay" id="overlay" onclick="closePopup()"></div>
+
+ <!-- Popup com iframe -->
+ <div class="popup" id="popup">
+     <button class="close-btn" onclick="closePopup()"><i class="bi bi-x-circle-fill"></i>
+    </button>
+     <iframe src="../error/404server.html" title="Site em Iframe"></iframe>
+ </div>
+
+<div class="notification-panel" id="notificationPanel">
+    <div class="notification-header">Notificações</div>
+    <div class="notification-content">
+        <div class="notification-item">Lembrete: Call de VM Cancelado</div>
+        <div class="notification-item">Tarefa: Enviar check-list até as 10:00</div>
+        <div class="notification-item">Lembrete: Consultar Planner novo</div>
+        <div class="notification-item">Lembrete: Encaixe de Mercadorias</div>
+        <a href="#" class="close-panel" onclick="togglePanel()">Fechar</a>
+    </div>
+</div>
+
+<!-- links -->
+<div class="overlay" id="overlay" onclick="closePopup()"></div>
+
+<!-- links -->
+<div class="link" id="link">
+    <p>Links Uteis:</p>
+    <a href="https://ead.htn.com.br" target="_blank">EAD</a>
+    <a href="http://cac.htn.com.br" target="_blank">CAC</a>
+    <a href="https://webmail.humanitarian.com.br" target="_blank">Webmail</a>
+    <br><br>
+    <button onclick="closeLink()">Fechar</button>
+</div><!-- links -->
+
 <div id="overlay"></div>
-    <div id="weatherPopup">
-        <span class="close" onclick="closeWeatherPopup()">
-           <i  class="bi bi-x-circle-fill"></i></span>
-        <h2>Clima Atual</h2>
-        <p>Sertãazinho-SP</p>
-        <p id="weatherInfo">Carregando...</p>
-    </div> <!-- weather popup -->
+
+<div id="weatherPopup">
+    <span class="close" onclick="closeWeatherPopup()">
+        <i class="bi bi-x-circle-fill"></i>
+    </span>
+    <h2>Clima Atual</h2>
+    <i class="bi bi-cloud-sun weather-icon"></i>
+    <p class="location">Sertãozinho-SP</p>
+    <p id="weatherInfo">Carregando informações...</p>
+    <div class="footer">Powered by HG Weather</div>
+</div>
 
   <!-- user account Popup -->
   <div id="overlay"></div>

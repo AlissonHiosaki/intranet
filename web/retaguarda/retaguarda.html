@@ -53,7 +53,7 @@
         <img class="icon_header" onclick="getWeather()" width="47px" height="47" src="../../assets/img/icon/clima.png" alt="clima"><!--clima-->
         <img class="icon_header" onclick="openPopup()" src="../../assets/img/icon/truck.png" alt="truck">
         <img class="icon_header" onclick="togglePanel()" src="../../assets/img/icon/notify.png" alt="notify">
-        <img class="icon_header" onclick="openPopup()" src="../../assets/img/icon/links.png" alt="link">
+        <img class="icon_header" onclick="openLink()" src="../../assets/img/icon/links.png" alt="link">
         <img class="icon_header" onclick="showPhonebookPopup()" src="../../assets/img/icon/ramal.png" alt="ramal">
         <img class="icon_header" onclick="showProfilePopup()"src="../../assets/img/icon/perfil.png" width="47px" alt="login">
 
@@ -64,7 +64,6 @@
 
  <!-- Popup com iframe -->
  <div class="popup" id="popup">
-     <button class="close-btn" onclick="closePopup()"><i class="bi bi-x-circle-fill"></i>
     </button>
      <iframe src="../error/404server.html" title="Site em Iframe"></iframe>
  </div>
@@ -84,13 +83,13 @@
 <div class="overlay" id="overlay" onclick="closePopup()"></div>
 
 <!-- links -->
-<div class="popup" id="popup">
+<div class="link" id="link">
     <p>Links Uteis:</p>
     <a href="https://ead.htn.com.br" target="_blank">EAD</a>
     <a href="http://cac.htn.com.br" target="_blank">CAC</a>
     <a href="https://webmail.humanitarian.com.br" target="_blank">Webmail</a>
     <br><br>
-    <button onclick="closePopup()">Fechar</button>
+    <button onclick="closeLink()">Fechar</button>
 </div><!-- links -->
 
 <div id="overlay"></div>
