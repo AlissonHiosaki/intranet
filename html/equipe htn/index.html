@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipe HTN</title>
+     <!--cdn bootstrap-->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <!-- icone da aba do navegador-->
+    <link rel="shortcut icon" href="./assets/favicon/LogoWhite.png" type="image/x-icon">
+
+    <!-- estilo de desktop -->
+    <link rel="stylesheet" href="./assets/css/global.css">
+
+    <!-- estilo de mobile -->
+     <link rel="stylesheet" href="./assets/css/mobile.css"> 
+
+     <!-- materialize css-->
+      <link rel="stylesheet" href="">
+
+     <!-- java script -->
+     <script src="./assets/js/colaboradores.js"></script>
+     <script src="./assets/js/script.js"></script>
+     <script src="./assets/js/server.js"></script>
+     <script src="./assets/js/btn-up.js"></script>
+    <!-- Fonte utilizada -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <!-- logo image -->
+     <img src="./assets/favicon/TextWhite.png" 
+     style="height:50px;display:inline-flex;"alt="Logo"class="logo">
+     <!-- logo image -->
+  
+     <!-- tilulo do site -->
+    <h1>EQUIPE HTN</h1>
+    <p class="un">UNIDADE 42</p>
+</header>
+
+<!-- Filtro de categorias -->
+<nav class="menu-categorias">
+    <button class="filter-btn" data-category="all">TODOS</button>
+    <button class="filter-btn" data-category="vendas">VENDAS</button>
+    <button class="filter-btn" data-category="estoque">ESTOQUE</button>
+    <button class="filter-btn" data-category="idc">IDC</button>
+    <button class="filter-btn" data-category="vm">VM</button>
+    <button class="filter-btn" data-category="lideres">LIDERES</button>
+    <button class="filter-btn" data-category="gestores">GESTORES</button>
+   
+</nav>
+
+<section id="menu" class="menu">
+    <!--exibir resultados--> 
+</section>
+
+<!-- Modal para exibir a foto -->
+<div id="fotoModal" class="modal">
+    <span id="fecharFotoModal" class="close">&times;</span>
+    <img id="fotoPopup" class="modal-content">
+    <img class="logo-modal" src="./assets/favicon/TextWhite.png" alt="logo da loja">
+</div>
+</div>
+
+<button id="btnVoltarTopo" class="btn-flutuante" title="Voltar ao Topo">
+    <i class="bi bi-arrow-up"></i>
+</button>
+</body>
+</html>

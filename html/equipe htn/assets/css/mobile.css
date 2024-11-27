@@ -1,0 +1,161 @@
+
+/* Reset e estilo básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  padding: 10px;
+}
+
+header {
+  text-align: center;
+  padding: 15px;
+  background:black;
+  height: 15vh; /* Ajusta a altura do cabeçalho */
+  color: white;
+  border-radius: 15px;
+}
+
+h1 {
+  font-size: 20px; /* Reduzido para caber em telas pequenas */
+  color: #ffffff;
+  text-shadow: 0.1em 0.5em 0.5em black;
+}
+
+/* Barra de navegação */
+.menu-categorias {
+  display: flex;
+  flex-wrap: wrap; /* Permite quebra de linha */
+  justify-content: center;
+  gap: 8px;
+  margin: 15px 0;
+}
+
+.menu-categorias .filter-btn {
+  background-color: #AEEA00;
+  color: black;
+  border: none;
+  padding: 8px 12px; /* Botões menores */
+  border-radius: 5px;
+  font-size: 0.9em; /* Texto menor */
+  cursor: pointer;
+}
+
+.menu-categorias .filter-btn:hover {
+  background-color: #AEEA00;
+}
+
+/* Cards */
+.menu {
+  display: flex;
+  flex-direction: column; /* Coloca os cards em uma coluna no mobile */
+  gap: 15px;
+  align-items: center; /* Centraliza os cards */
+}
+
+.card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  overflow: hidden;
+  width: 90%; /* Largura adaptada para ocupar quase toda a tela */
+  max-width: 300px; /* Limita a largura máxima */
+  transition: all 200ms;
+}
+
+.card:hover {
+  border: 1px solid #AEEA00;
+  transform: scale(1.02); /* Reduzido para evitar exagero */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.card img.foto {
+  width: 100%;
+  height: 300px; /* Altura reduzida para otimizar espaço */
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+.card .info {
+  height: auto; /* Adapta a altura ao conteúdo */
+  padding: 10px;
+  text-align: left;
+}
+
+.card .info h3 {
+  text-align: center;
+  margin: 0;
+  font-size: 1.1em; /* Texto menor */
+  color: #333;
+}
+
+.card .info p {
+  margin: 8px 0 0;
+  font-size: 0.9em;
+  color: #777;
+}
+
+/* Scrollbar customizado */
+body::-webkit-scrollbar {
+  width: 8px; /* Menor para telas pequenas */
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #AEEA00;
+  border-radius: 10px;
+}
+
+/* Media Queries para mobile */
+@media (min-width: 480px) {
+  .menu {
+    flex-direction: row;
+    flex-wrap: wrap; /* Volta a permitir cards lado a lado para telas maiores */
+  }
+
+  .card {
+    width: 45%; /* Ocupa 45% da largura em telas médias */
+  }
+}
+
+@media (min-width: 768px) {
+  .menu {
+    gap: 20px; /* Espaçamento maior para telas médias */
+  }
+
+  .card {
+    width: 30%; /* Ocupa 30% da largura em tablets */
+  }
+}
+
+/* Botão flutuante para voltar ao topo */
+.btn-flutuante {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #AEEA00; /* Cor de fundo */
+  color: #fff; /* Cor do ícone */
+  border: none;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: none; /* Escondido por padrão */
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+.btn-flutuante:hover {
+  background-color: #9ccc00; /* Cor ao passar o mouse */
+}

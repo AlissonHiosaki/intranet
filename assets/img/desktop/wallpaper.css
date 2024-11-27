@@ -1,0 +1,19 @@
+
+/* Configuração de plano de fundo */
+body{
+  height: 100vh;
+  background: white;  
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+/*mobile*/ 
+@media (max-width: 800px){
+  body{
+      background: black;
+      background-position: center;
+      background-size: 1200px;
+}
+}
+/*motor de renderização de imagens*/
