@@ -51,6 +51,39 @@ th {
     background: #f4f4f4;
 }
 
+tr:hover{
+    background: #AEEA00;
+}
+
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: left;
+        position: relative;
+    }
+
+    th, td {
+        padding: 10px;
+        border: 1px solid #ddd;
+    }
+
+    th {
+        position: relative;
+    }
+
+    /* Estilo para o "handle" de redimensionamento */
+    th .resizer {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 5px;
+        height: 100%;
+        cursor: col-resize;
+        user-select: none;
+    }
+
+
 .no-results {
     text-align: center;
     color: #888;
