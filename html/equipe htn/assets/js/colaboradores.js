@@ -91,7 +91,7 @@
             dataAdmissao:'01/09/2023',
         },
         {
-            foto: 'assets/photos/profile.png,
+            foto: 'assets/photos/profile.png',
             categoria: ['estoque'],
             nome: 'GERSON',
             matricula: '000000',
