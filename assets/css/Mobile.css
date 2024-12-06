@@ -1,6 +1,50 @@
 /* estilo de pagina adaptado para webpags mobile e tablets*/
+@media (max-width: 1000px){
+  /* SUBTITULO */
+header{
+  color: #fff;
+  display: flex;
+  justify-content: end;
+  font-size: 50px;
+  padding: 10px;
+  background-color: black;
+  backdrop-filter: blur(20px);
+  border-block-end: 4px solid #AEEA00;
+}
 
-@media (max-width: 1000px) {
+.logohtn{ /* posicionar img no inicio*/
+  display: flex;
+  margin-right: 136vh;
+ }
+
+.icon_header{
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #AEEA00;
+  margin-left: 30px;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+ }
+  /* iframes instalando na webpage mobile */
+  iframe{
+    width: 92.2%;
+    height: 93.7vh;
+    margin-left: 60px;
+  } 
+  .iframe-datasnap{
+    width: 86%;
+    height: 10vh;
+    margin-left: 95px;
+  }
+  .iframe-equipehtn{
+    width: 87%;
+    height: 99.7vh;
+    margin-left: 95px;
+  }
+}
+@media (max-width: 700px) {
 
   @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
 
@@ -10,23 +54,6 @@
     box-sizing: border-box;
     font-family: 'Outfit',Sans-Serif;
   }
-  /* SUBTITULO */
-  h1{
-    color: #fff;
-    display: auto;
-    font-size: 20px;
-    padding: 10px;
-    background-color: transparent;
-    backdrop-filter: blur(20px);
-    transition: 200ms;
-  }
-  /* iframes instalando na webpage mobile */
-  iframe{
-    width: 93%;
-    height: 100vh;
-    margin-left: 50px;
-    
-  } 
   img{
     width: 60%;
     height: auto;

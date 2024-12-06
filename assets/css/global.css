@@ -207,6 +207,13 @@ iframe {
     height:90.06vh;
     overflow: hidden;
   }
+  .iframe-equipehtn{
+    margin-top:0px;
+    margin-left:95px;
+    width:95.05%;
+    height:99.6vh;
+    overflow: hidden;
+  }
 }
 
 @media screen and (max-width: 1900px) {
