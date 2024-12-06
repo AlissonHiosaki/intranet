@@ -48,7 +48,7 @@
 <body>
 
 <header> 
-        <img class="logohtn" src="../assets/logo/LOGO_MAIOR.png" width="80px" height="45px" alt="logohtn">
+        <img class="logohtn" src="../../assets/logo/LOGO_MAIOR.png" width="80px" height="45px" alt="logohtn">
         <img class="icon_header" onclick="getWeather()" width="47px" height="47" src="../assets/img/icon/clima.png" alt="clima"><!--clima-->
         <img class="icon_header" onclick="openPopup()" src="../assets/img/icon/truck.png" alt="truck">
         <img class="icon_header" onclick="togglePanel()" src="../assets/img/icon/notify.png" alt="notify">
@@ -147,6 +147,14 @@
 
 <!-- area de modal web -->
 
+<!-- Tela de Loading -->
+<div id="loading-screen" class="loading-screen">
+    <div class="spinner"></div>
+    <p>Validando Usuário...</p>
+</div>
+<script src="/assets/js/loading.js"></script>
+<link rel="stylesheet" href="/assets/css/loading.css">
+
 <nav class="menu-lateral">
     <div class="btn-expandir">
         <i class="bi bi-list" id="btn-exp" aria-label="Expandir Menu"></i>
@@ -220,5 +228,6 @@
 <script src="../../assets/js/secure/monitoring_url.js"></script>
 <!--Proteção contra alterações no local no site ou no index-->
 <script src="../../assets/js/secure/disable_web.js"></script>
+
 </body>
 </html>

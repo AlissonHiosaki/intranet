@@ -27,6 +27,17 @@
    </style> <!--bootstrasp-->
 </head>
 <body>
+
+    <!-- Tela de Loading -->
+<div id="loading-screen" class="loading-screen">
+    <div class="spinner"></div>
+    <p>Carregando banco de dados...</p>
+    <div class="loading-bar"></div>
+    <p>Por favor, aguarde...</p>
+</div>
+<script src="/assets/js/loading.js"></script>
+<link rel="stylesheet" href="/assets/css/loading.css">
+
     <header>
         <img src="./assets/logo/logo 2.png" alt="logo webpage">
         <h1>Painel de Controle de Colaboradores</h1>
@@ -54,10 +65,10 @@
         <button id="open-modal"><span class="icon1"><i class="bi bi-person-fill-add" ></i></span></button>
         <button class="icon1" onclick="exportarCSV()"><i class="bi bi-filetype-csv">Exporta</i></button>  <!-- exportar para csv -->
         <button class="icon1" onclick="exportarExcel()"><i class="bi bi-file-earmark-spreadsheet">Excel</i></button>  <!-- exportar para excel -->
-        
+        <!--botao de excluir colaborador do const-->
 
-        <table>
-            <thead>
+        <table id="example" class="display" style="width:100%" >
+            <thead> 
                 <tr>
                     <th>Matricula</th>
                     <th>Nome</th>
@@ -77,16 +88,32 @@
         <p class="no-results" id="no-results" style="display: none;">Nenhum colaborador encontrado no sistema.</p>
     </div>
 
+    
      <!--botao de volta para cima-->
      <button id="btnTopo" title="Voltar ao topo"><i class="bi bi-arrow-up"></i></button>
 
      
+
     <script src="../equipe htn/assets/js/colaboradores.js"></script> <!-- data_snap_colaboradores -->
     <script src="./assets/js/server.js"></script> <!-- data_snap_server -->
     <script src="./assets/js/modal.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.4/xlsx.full.min.js"></script>
     <script src="./assets/js/btn-up.js"></script> <!-- botao de volta para cima -->
     <script src="./assets/js/filter.js"></script>
     <script src="./assets/js/dimension.js"></script>
+
+
+    <!--datatable pdf, excel, csv, xml-->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.4/xlsx.full.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.4.1/css/buttons.dataTables.min.css">
+    <script src="https://cdn.datatables.net/buttons/2.4.1/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.4.1/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.4.1/js/buttons.print.min.js"></script>
+   
+  
+</body>
 </body>
 </html>
