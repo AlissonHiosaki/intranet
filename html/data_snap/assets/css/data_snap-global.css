@@ -215,19 +215,22 @@ input:hover{
 
 .close-button {
     position: absolute;
-    top: 20px;
+    top: 30vh;
+    left: 125vh;
+    z-index: 10;
     right: 20px;
     width: 20px;
     height: 20px;
     font-size: 1.9rem;
     cursor: pointer;
+    color: black;
 }
 
 .close-button:hover {
     color: #ff0000;
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 30vh;
+    left: 125vh;
     font-size: 1.9rem;
     border-radius: 100%;
 }
