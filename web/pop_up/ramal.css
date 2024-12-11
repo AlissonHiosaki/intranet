@@ -8,8 +8,8 @@
     width: 650px;
     max-height: 60%;
     padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ccc;
+    background-color: #000000;
+    border: 2px solid #AEEA00;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     z-index: 1000;
@@ -24,10 +24,10 @@
     cursor: pointer;
     top: 10;
     z-index: 10;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
 }
 #phonebookPopup .close > i{
-    color: black;
+    color: rgb(235, 235, 235);
 }
 #phonebookPopup .close > i:hover{
     color: red;
@@ -60,8 +60,17 @@ th, td {
     border: 1px solid #ddd;
 }
 
+tr{
+    color: white;
+    background: #2e2e2e;
+} tr:hover{
+    background: #AEEA00;
+    color: black;
+}
+
 th {
-    background-color: #f4f4f4;
+    background-color: #1d1d1d;
+    color: white;
 }
 
 h2 {
@@ -69,6 +78,8 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
+    background: transparent;
 }
 /*barra de navegação do navegador*/
 ::-webkit-scrollbar {
@@ -93,11 +104,11 @@ h2 {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
     border-radius: 10px;
     box-sizing: border-box;
     font-size: 18px;
-    color: black;
+    color: rgb(0, 0, 0);
     position: sticky; /* Fixa no topo */
     top: 0;
     z-index: 10;
@@ -106,5 +117,5 @@ h2 {
     outline: none;
 }
 #searchBar:hover{
-    border-color: #9ccc00; /* Borda ao passar o mouse */
+    border: 2px solid #9ccc00;
 }

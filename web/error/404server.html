@@ -1,36 +1,79 @@
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
-<title>404 - File or directory not found.</title>
-<style type="text/css">
-
-body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}
-fieldset{padding:0 15px 10px 15px;} 
-h1{font-size:2.4em;margin:0;color:#FFF;}
-h2{font-size:1.7em;margin:0;color:#CC0000;} 
-h3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} 
-#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;
-background-color:#494848;}
-#content{margin:0 0 0 2%;position:relative;}
-.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}
-
-</style>
-</head>
+<title>Error Server</title>
+<link rel="shortcut icon" href="" type="image/x-icon">
 <body>
-<div id="header"><h1>Server Error</h1></div>
-<div id="content">
- <div class="content-container"><fieldset>
-  <h2>404 - Diretorio ou arquivos da pagina nao encontrados.</h2>
-  <h3>Pagina bloqueada ou foi movida para outro local, verifique a url, ou entre em contato com o administrador do servidor:
-<a href="./suporte.html">Suporte</a></h3>
- </fieldset></div>
-</div>
-
-<!--Proteção contra alterações na URL da web-->
-<script src="../../assets/js/secure/monitoring_url.js"></script>
-<!--Proteção contra alterações no local no site ou no index-->
-<script src="../../assets/js/secure/disable_web.js"></script>
+    <div class="container">
+        <div class="error-icon">⚠️</div>
+        <div class="error-message">Erro ao conectar com o servidor</div>
+        <div class="error-description">Não foi possível estabelecer uma conexão com o servidor. Verifique sua conexão com a internet ou tente novamente mais tarde.</div>
+        <img class="loading" src="/assets/img/conf/load.gif" alt="loading">
+        <button class="retry-button" onclick="window.location.reload()">Tentar Novamente</button>
+        <button class="retry-button" ><a href="/index.html">Portal intranet</a></button>
+    </div>
 </body>
-</html>
+<script>setTimeout(function() {window.location.reload();}, 5000); 
+</script>
+
+<style>
+  .loading {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 27vh;
+  }
+  a{text-decoration: none; color: #721c24;}
+
+  body {
+      margin: 0;
+      padding: 0;
+      background-color: #f8d7da; /* Fundo vermelho claro */
+      color: #721c24; /* Texto vermelho escuro */
+      font-family: Arial, sans-serif;
+      font-size: 18px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+  }
+  .container {
+      max-width: 600px;
+      background-color: white;
+      border: 1px solid #f5c6cb;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+  }
+  .error-icon {
+      font-size: 48px;
+      color: #f5c6cb;
+      margin-bottom: 20px;
+  }
+  .error-message {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+  }
+  .error-description {
+      font-size: 16px;
+      margin-bottom: 20px;
+  }
+  .retry-button {
+      display: inline-block;
+      background-color: #f5c6cb;
+      color: #721c24;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+  }
+  .retry-button:hover {
+      background-color: #f8d7da;
+  }
+</style>

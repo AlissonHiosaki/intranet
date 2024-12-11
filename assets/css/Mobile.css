@@ -1,50 +1,6 @@
 /* estilo de pagina adaptado para webpags mobile e tablets*/
-@media (max-width: 1000px){
-  /* SUBTITULO */
-header{
-  color: #fff;
-  display: flex;
-  justify-content: end;
-  font-size: 50px;
-  padding: 10px;
-  background-color: black;
-  backdrop-filter: blur(20px);
-  border-block-end: 4px solid #AEEA00;
-}
 
-.logohtn{ /* posicionar img no inicio*/
-  display: flex;
-  margin-right: 136vh;
- }
-
-.icon_header{
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  color: #AEEA00;
-  margin-left: 30px;
-  font-size: 40px;
-  display: flex;
-  align-items: center;
- }
-  /* iframes instalando na webpage mobile */
-  iframe{
-    width: 92.2%;
-    height: 93.7vh;
-    margin-left: 60px;
-  } 
-  .iframe-datasnap{
-    width: 86%;
-    height: 10vh;
-    margin-left: 95px;
-  }
-  .iframe-equipehtn{
-    width: 87%;
-    height: 99.7vh;
-    margin-left: 95px;
-  }
-}
-@media (max-width: 700px) {
+@media (max-width: 800px) {
 
   @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
 
@@ -147,4 +103,71 @@ header{
     margin-left: 10px;
   }
   
-}
+
+  .logohtn{ /* posicionar img no inicio*/
+    display: flex;
+    margin-right: 1vh;
+    width: 70px;
+    height: 35px;
+   }
+  
+  .icon_header{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #AEEA00;
+    margin-left: 30px;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+   }
+   header{
+    font-size: 10px;
+    padding: 10px;
+    margin: 0;
+   }
+    /* iframes instalando na webpage mobile */
+    iframe{
+      width: 92.2%;
+      height: 93.7vh;
+      margin-left: 60px;
+    } 
+    .iframe-datasnap{
+      width: 86%;
+      height: 10vh;
+      margin-left: 95px;
+    }
+    .iframe-equipehtn{
+      width: 87%;
+      height: 99.7vh;
+      margin-left: 95px;
+    }
+  }
+ @media (max-width: 500px) {
+  .logohtn{ /* posicionar img no inicio*/
+    display: flex;
+    margin-right: 1vh;
+    width: 50px;
+    height: 25px;
+   }
+  
+  .icon_header{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #AEEA00;
+    margin-left: 30px;
+    width: 30px;
+    height: 30px;
+    margin: 1px;
+    display: flex;
+    align-items: center;
+   }
+   header{
+    font-size: 10px;
+    padding: 10px;
+    margin: 0;
+   }
+ }

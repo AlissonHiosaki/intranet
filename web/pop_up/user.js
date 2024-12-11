@@ -1,9 +1,9 @@
    // Simulando informações do usuário logado
    const user = {
-    name: "Admin",
-    email: "app.tester@htn.com.br",
+    name: "Estoque 42",
+    email: "operações42@htn.com.br",
     local:"Unidade 42",
-    avatar: "/intranet/assets/img/profile.png"
+    avatar: "/assets/img/user/profile.png"
 };
 
 // Função para abrir o popup com os dados do usuário
@@ -30,6 +30,6 @@ document.getElementById('openProfileButton').addEventListener('click', showProfi
 function voltar() {
 
     // Redireciona para a página de login
-    window.location.href = "/intranet/index.html";
+    window.location.href = "/index.html";
 
 }

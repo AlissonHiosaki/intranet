@@ -1,4 +1,9 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
 button {
     padding: 10px 20px;
     font-size: 16px;
@@ -10,11 +15,6 @@ button {
     cursor: pointer;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
-}
-
-button:hover {
-    background-color: #45a049;
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
 }
 
 /* Overlay de fundo */
@@ -38,13 +38,15 @@ button:hover {
     transform: translate(-50%, -50%);
     width: 90%;
     max-width: 400px;
-    background-color: #fff;
+    background-color: #000000;
+    border: 2px solid #AEEA00;
     color: #333;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     z-index: 1000;
     text-align: center;
+    transition: all 1.3s;
 }
 
 .link h2 {
@@ -54,8 +56,9 @@ button:hover {
 }
 
 .link p {
-    font-size: 1em;
+    font-size: 2em;
     margin: 15px 0;
+    color: white;
 }
 
 .link a {
@@ -70,7 +73,8 @@ button:hover {
 }
 
 .link a:hover {
-    background-color: #9ccc00;
+    background-color: #9ccc00ad;
+    color: white;
 }
 
 .link button {
@@ -83,8 +87,12 @@ button:hover {
     border-radius: 5px;
     cursor: pointer;
     transition: background 0.3s;
+    
+} .link button:hover{
+    background-color: #b71c1c;
 }
 
 .popup button:hover {
     background-color: #d32f2f;
+    color: black;
 }

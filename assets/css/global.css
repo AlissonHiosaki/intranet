@@ -79,10 +79,13 @@ nav.menu-lateral.expandir{
 
 /* BTN EXPANDIR  */
 .btn-expandir > i{
-  color: #fff;
+  color: #AEEA00;
   text-shadow: #333;
   font-size: 24px;
   cursor: pointer;
+}
+.btn-expandir > i:hover{
+  color: white;
 }
 
 /* DIVISORIO DOS MENUS */
@@ -153,91 +156,33 @@ body::-webkit-scrollbar {
   border-radius: 20px;
 }
 
-iframe {
-  border: none;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+
+
+/* iframes para tela grande */
+
+@media only screen and (min-width: 1200px)  {
+  iframe { /* 100%*/
+      width: 96.2%;
+      height: 91.8dvh;
+      margin-left: 8vh;
+      border: none;
+  }
+  .logohtn{ /* posicionar img no inicio*/
+    display: flex;
+    margin-right: 136vh;
+   }
 }
 
-/* @media iframe responsiva*/
-
-@media screen and (max-width: 2900px ) {
-  iframe{ /*67%*/
-    margin-top:0px;
-    margin-left:95px;
-    width: 96.7%;
-    height:93.4vh;
-  }
+/* iframes para tela média 90% */
+@media only screen and (min-width: 1800px)  {
+  iframe { /* 100%*/
+      width: 96.2%;
+      height: 91.8dvh;
+      margin-left: 8vh;
+      border: none;
+  } 
+  .logohtn{ /* posicionar img no inicio*/
+    display: flex;
+    margin-right: 136vh;
+   }
 }
-
-@media screen and (max-width: 2600px ) {
-  iframe{ /*75%*/
-    margin-top:0px;
-    margin-left:95px;
-    width: 96.3%;
-    height:92.4vh;
-  }
-}
-
-@media screen and (max-width: 2400px ) {
-  iframe{ /*80%*/
-    margin-top:0px;
-    margin-left:95px;
-    width: 96.02%;
-    height:92.1vh;
-  }
-}
-
-@media screen and (max-width: 2200px ) {
-  iframe{ /*90%*/
-    margin-top:0px;
-    margin-left:95px;
-    width: 95.5%;
-    height:91.05vh;
-  }
-}
-
-@media screen and (max-width: 2000px) {
-  iframe{ /*100%*/
-    margin-top:0px;
-    margin-left:95px;
-    width:95.05%;
-    height:90.06vh;
-    overflow: hidden;
-  }
-  .iframe-equipehtn{
-    margin-top:0px;
-    margin-left:95px;
-    width:95.05%;
-    height:99.6vh;
-    overflow: hidden;
-  }
-}
-
-@media screen and (max-width: 1900px) {
-  iframe{ /*110%*/
-    margin-top:0px;
-    margin-left:95px;
-    width:94.5%;
-    height:89.07vh;
-    overflow: hidden;
-  }
-}
-
-@media screen and (max-width: 1700px) {
-  .responsive-iframe iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: none; /* Remove bordas padrão do navegador */
-  
-  
-  }
-}
-
-
-  
