@@ -1,8 +1,8 @@
    // Simulando informações do usuário logado
    const user = {
-    name: "Estoque 42",
-    email: "operações42@htn.com.br",
-    local:"Unidade 42",
+    name: "HTN TI",
+    email: "admin.htn@htn.com.br",
+    local:"R3 Un42",
     avatar: "/intranet/assets/img/user/profile.png"
 };
 
