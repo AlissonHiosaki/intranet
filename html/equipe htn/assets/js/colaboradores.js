@@ -24,7 +24,7 @@
             nome: 'APARECIDA CARIOCA ',
             matricula: '42850 ',
             cargo: 'OPERADORA DE LOJA ',
-            setor: 'CAIXA/CREDIARIO ',
+            setor: 'AFASTADA ',
             dataAdmissao:'01/11/2023',
         },
         {
