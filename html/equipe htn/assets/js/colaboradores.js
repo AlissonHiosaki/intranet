@@ -55,7 +55,7 @@
             dataAdmissao:'05/11/2024',
         },
         {
-            foto: 'assets/photos/profile.png',
+            foto: 'assets/photos/eduarda.png',
             categoria: ['vendas'],
             nome: 'EDUARDA GUIMARAES',
             matricula: '44775',
