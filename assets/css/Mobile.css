@@ -1,0 +1,173 @@
+/* estilo de pagina adaptado para webpags mobile e tablets*/
+
+@media (max-width: 800px) {
+
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit',Sans-Serif;
+  }
+  img{
+    width: 60%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 200ms;
+  }
+  
+  /* ESTILO MENU LATERAL */
+  nav,manu-lateral{ 
+    width: 60px;
+    height: 100%;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    padding: 10px 0 40px 1%;
+    box-shadow: 5px 0 0 #AEEA00;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .5s;
+  }
+  
+  /* TRASIÇÃO DO MENU LATERAL */
+  nav.menu-lateral.expandir{ 
+      width:330px;
+  }
+  
+  /* BTN EXPANDIR */
+  .btn-expandir{ 
+    width: 100%;
+    padding-left: 15px;
+  }
+  
+  /* BTN ICONE EXPANDIR  */
+  .btn-expandir > i{
+    color: #fff;
+    font-size:24px;
+    cursor: pointer;
+  }
+  
+  /* DIVISORIO DOS MENUS */
+  ul{
+    height: 100%;
+    list-style-type: none;
+  }
+  
+  /* MENU ITEM */
+  ul li.item-menu{
+      transition: .4s;
+  }
+  
+  /* COR MENU SELECT */
+  ul li.ativo{
+    background-color: #AEEA00;
+  }
+  
+  /* ANIMAÇÃO DO MENU */
+  ul li.item-menu:hover{
+      background: #AEEA00;
+  }
+  
+  /* DIVISORIO DO ITEM MENU */
+  ul li.item-menu a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 30px;
+  }
+   
+  /* ESTILO DO TXT DO MENU */
+  ul li.item-menu a .txt-link{
+    margin-left: 70px;
+    transition: .5s;
+    opacity: 0;
+  }
+  
+  /* ANIMAÇÃO DO TXT DO MENU */
+  nav.menu-lateral.expandir .txt-link{
+    margin-left: 40px;
+    opacity: 1;
+  }
+  
+  /* CONFIG. LINK ICON MENU */
+  ul li.item-menu a .icon > i{
+    font-size: 30px;
+    margin-left: 10px;
+  }
+  
+
+  .logohtn{ /* posicionar img no inicio*/
+    display: flex;
+    margin-right: 1vh;
+    width: 70px;
+    height: 35px;
+   }
+  
+  .icon_header{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #AEEA00;
+    margin-left: 30px;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+   }
+   header{
+    font-size: 10px;
+    padding: 10px;
+    margin: 0;
+   }
+    /* iframes instalando na webpage mobile */
+    iframe{
+      width: 92.2%;
+      height: 93.7vh;
+      margin-left: 60px;
+    } 
+    .iframe-datasnap{
+      width: 86%;
+      height: 10vh;
+      margin-left: 95px;
+    }
+    .iframe-equipehtn{
+      width: 87%;
+      height: 99.7vh;
+      margin-left: 95px;
+    }
+  }
+ @media (max-width: 500px) {
+  .logohtn{ /* posicionar img no inicio*/
+    display: flex;
+    margin-right: 1vh;
+    width: 50px;
+    height: 25px;
+   }
+  
+  .icon_header{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #AEEA00;
+    margin-left: 30px;
+    width: 30px;
+    height: 30px;
+    margin: 1px;
+    display: flex;
+    align-items: center;
+   }
+   header{
+    font-size: 10px;
+    padding: 10px;
+    margin: 0;
+   }
+ }
