@@ -1,5 +1,5 @@
 @media (max-width: 900px){
-    body {
+    .login {
         font-family: Arial, sans-serif;
         display: flex;
         justify-content: center;
