@@ -9,8 +9,9 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100vh;
-    height: 100vh;
+    background-size: 80vh;
+    height: 90vh;
+    margin-right: 100vh;
 }
 h1,p,img{
     color: white;
@@ -35,7 +36,7 @@ h1 {
     align-items: center;
 }
 i{
-   font-size: 25px;
+   font-size: 20px;
    margin-top: -40px;
    cursor: pointer;
    position: absolute;
@@ -44,11 +45,13 @@ i{
 }/*btn mostrar senha*/
 form{
     background: transparent;
-    backdrop-filter: blur(90px);
+    backdrop-filter: blur(40px);
     border: px solid #AEEA00;
     padding: 20px;
     border-radius: 20px;
-    
+    border-left: 2px solid #adff2f;
+    border-block-end: 2px solid #adff2f;
+        
 }
 input[type="text"],
 input[type="password"]{
@@ -56,7 +59,7 @@ input[type="password"]{
     padding: 10px;
     margin-bottom: 10px;
     box-sizing: border-box;
-    border: 1px solid #AEEA00;
+    border: 2px solid #AEEA00;
     transition: border-color 0.3s ease;
     outline: none;
     box-shadow: 0 0 5px rgba(0,0,0,0.2);
@@ -69,11 +72,11 @@ input[type="password"]{
 
 
 input[type="text"]:hover{
-    border: 1px solid white;
+    border: 2px solid white;
     color: #AEEA00;
 }
 input[type="password"]:hover{
-    border: 1px solid white;
+    border: 2px solid white;
 }
 
 button {
