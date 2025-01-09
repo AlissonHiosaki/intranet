@@ -1,154 +1,102 @@
-/*estilo de pagina para desktop*/
-*{
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-/*direitos autorais*/
-.direitos-autorais{
-    color: black;
+body {
+    font-family: Arial, sans-serif;
     display: flex;
-    align-items: center;
     justify-content: center;
     justify-items: center;
-    margin-block-start: 200px;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    background-image: url(../../assets/img/wallpapers/mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100vh;
+    height: 100vh;
 }
-a{
-    text-decoration: none;
-    color: #3396d7;
-    font-size: 20px;
-    border: 1px solid #3396d7;
-    padding: 2px;
-    border-radius: 10px;
-}
-a:hover{
-    background-color: #3396d7;
+h1,p,img{
     color: white;
 }
-/*direitos autorais*/
-
-.container{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-top: 100px;
+::placeholder{
+    color: white;
+}
+input[type="checkbox"]{
+    margin-right: 10px;
+    cursor: pointer;
+}
+label{
+    color: white;
 }
 
-.card{
-    background-color: #f7f7f7;
-    padding: 60px 30px;
-    border-radius: 20px;
-    border: 1px solid white;
-    min-width: 100%dvh;
-    height: 100%dvh;
-}
-.title{
-    font-size: 30px;
-    margin-block: 40px;
-    margin-top: -110px;
-    color: black;
-}
-.logo{
-    display: flex;
-    margin: auto;
-    margin-top: 20px;
-}
-.user{
-    display: flex;
-    margin: auto;
+h1 {
+    font-size: 24px;
     margin-bottom: 20px;
-}
-
-.label-pass input{
-    width: 100%;
-    padding: 5px 5px;
-    display: inline-block;
-    border: 0;
-    outline: 1px solid black;
-    border-radius: 5px;
-    min-width: 10px;
-    font-size: 16px;
-    transition: all .3s ease-out;
-}
-/*btn mostrar senha*/
-i{
-    font-size: 25px;
-    cursor: pointer;
-    position: absolute;
-    right: 5px;
-    color: black;
-}/*btn mostrar senha*/
-.label-float input{
-    width: 100%;
-    padding: 5px 5px;
-    display: inline-block;
-    border: 0;
-    outline: 1px solid black;
-    border-radius: 5px;
-    min-width: 10px;
-    font-size: 16px;
-    transition: all .3s ease-out;
-}
-.label-pass{
-    position: relative;
-    padding-top: 13px;
-    margin-top: 5%;
-    margin-bottom: 5%;  
-}
-
-.label-float{
-    position: relative;
-    padding-top: 13px;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-.label-pass label{
-    color: rgb(87, 177, 52);
-    pointer-events: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-top: 13px;
-    transition: all;
-}
-
-.label-float label{
-    color: rgb(87, 177, 52);
-    pointer-events: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-top: 13px;
-    transition: all;
-}
-button{
-    background: radial-gradient(#3396d7, #2a82bc);
-    color: white;
-    padding: 15px 124px;
-    font-weight: bold;
-    font-size: 12pt;
-    margin-top: 20px;
-    border: 0;
-    border-radius: 8px;
-    cursor: pointer;
-    outline: none;
-}
-
-.justify-center{
     display: flex;
     justify-content: center;
+    justify-items: center;
+    align-items: center;
 }
-
-#msgError{
-    text-align: center;
-    color: #ff0000;
-    background-color: #ffbbbb;
+i{
+   font-size: 25px;
+   margin-top: -40px;
+   cursor: pointer;
+   position: absolute;
+   right: 30px;
+   color: rgb(255, 255, 255);
+}/*btn mostrar senha*/
+form{
+    background: transparent;
+    backdrop-filter: blur(90px);
+    border: px solid #AEEA00;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+input[type="text"],
+input[type="password"]{
+    width: 300px;
     padding: 10px;
-    border-radius: 4px;
-    display: none;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #AEEA00;
+    transition: border-color 0.3s ease;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    display: flex;
+    background-color: transparent;
+    backdrop-filter: blur(80px);
+    color: white;
+} 
+
+
+input[type="text"]:hover{
+    border: 1px solid white;
+    color: #AEEA00;
+}
+input[type="password"]:hover{
+    border: 1px solid white;
 }
 
-/*btn mostrar senha*/
+button {
+    padding: 10px 45%;
+    margin: 0 auto;
+    margin-bottom: auto;
+    background-color: #AEEA00;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+} button:hover{
+    background-color: #93c401;
+}
 
+#mostrarSenha {
+    margin-bottom: 10px;
+}
 
+#mostrarSenha:hover {
+    cursor: pointer;
+}
+
+#mostrarSenha:active {
+    transform: scale(0.2);
+}
