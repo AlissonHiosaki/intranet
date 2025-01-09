@@ -1,3 +1,5 @@
+<!--Alisson Hiosaki ©️2024-->
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -39,6 +41,14 @@
     <title>Portal Intranet | Humanitarian Calçados</title>
 
 </head>
+<!-- Tela de Loading -->
+<div id="loading-screen" class="loading-screen">
+    <div class="spinner"></div>
+    <p class="p1">Carregando...</p>
+  </div>
+  <script src="./assets/js/loading.js"></script>
+  <link rel="stylesheet" href="./assets/css/loading.css" />
+  
 <body class="login" >
 
    <form>
@@ -57,7 +67,7 @@
          <i onclick="mostrarSenha()" class="bi bi-eye-fill"id="btn-senha"></i>
         <!--mensagem de erro-->
         <p id="errorMessage" style="color: red; font-size: 14px;"></p>
-    
+
         <div class="justify-center">
             <button type="submit" onclick="logar(); return false">Entrar</button>
     </div>
@@ -68,6 +78,6 @@
    <script src="./assets/js/secure/monitoring_url.js"></script>
    <script src="./assets/js/secure/disable_web.js"></script>
 
- 
+   
 </body>
 </html>
