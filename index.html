@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!--cdn bootstrap-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CDN Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="./assets/css/bootstrap.css" />
 
-    <!--icones local bootstrapp-->
+    <!-- Ícones locais do Bootstrap -->
     <link href="./bootstrap/css/bootstrap-icons.css" rel="stylesheet" />
     <link href="./bootstrap/css/bootstrap-icons.json" rel="stylesheet" />
     <link href="./bootstrap/fonts/bootstrap-icons.woff" rel="stylesheet" />
@@ -21,89 +26,53 @@
           url("./bootstrap/fonts/bootstrap-icons.woff") format("woff");
       }
     </style>
-    <!--bootstrasp-->
 
-    <!--Node.JS-->
+    <!-- Node.js -->
     <script src="./assets/js/node.js"></script>
-
-    <!--Ícone da janela webpage-->
-    <link rel="shortcut icon" href="./assets/logo/logo_menor.ico" />
-
-    <!--Estilo de página desktop-->
+    
+    <!-- Estilos -->
     <link rel="stylesheet" href="./assets/css/login.css" />
-    <!-- css mobile -->
-    <link rel="stylesheet" href="./assets/css/login-mobile.css" />
+    <link rel="stylesheet" href="./assets/css/login-mobile.cs" />
 
+    <!-- Ícone da janela -->
+    <link rel="shortcut icon" href="./assets/logo/logo_menor.ico" />
     <title>Portal Intranet | Humanitarian Calçados</title>
-  </head>
 
-   <!-- Tela de Loading -->
-   <div id="loading-screen" class="loading-screen">
-    <div class="spinner"></div>
-    <p class="p1">Carregando...</p>
-</div>
-<script src="./assets/js/loading.js"></script>
-<link rel="stylesheet" href="./assets/css/loading.css">
+</head>
+<body>
 
-  <body>
-    <img class="logo" src="./assets/logo/logo 1.png" alt="Logo da empresa" width="300" height=""/>
+   <form>
+    <div>
+        <img src="./assets/logo/logo 2.png" alt="logo htn">
+        <h1>Entre com sua conta</h1>
 
-    <div class="container">
-      <div class="card">
-        <h1 class="title">Entre com sua conta</h1>
-        <form action="">
-          <img
-            class="user"
-            src="./assets/img/user/profile.png"
-            alt="Imagem do usuário"
-            width="99"
-            height="99"
-          />
+        <p>Usuario:</p>
+        <input type="text" id="login" placeholder="Usuário" >
+        <p></p>
 
-          <div class="label-float">
-            <input type="text" id="login" placeholder="Usuário" />
-          </div>
-
-          <div class="label-pass">
-            <input type="password" id="senha" placeholder="Senha" />
-            <i
-              class="bi bi-eye-fill"
-              id="btn-senha"
-              onclick="mostrarSenha()"
-              aria-label="Mostrar senha"
-            ></i>
-          </div>
-
-          <div
-            id="errorMessage"
-            style="color: red; display: none; font-size: 14px; margin-top: 5px"
-          ></div>
-
-          <div class="justify-center">
-            <button type="submit" onclick="logar(); return false">
-              Entrar
-            </button>
-          </div>
-        </form>
-      </div>
+        <!--exibir senha no input-->
+        <p>Senha:</p>
+        <input type="password" id="senha" placeholder="Senha">
+         <!--botão para mostrar/esconder senha-->
+         <i onclick="mostrarSenha()" class="bi bi-eye-fill"id="btn-senha"></i>
+        <!--mensagem de erro-->
+        <p id="errorMessage" style="color: red; font-size: 14px;"></p>
+        
+        <div class="checkbox">
+            <input type="checkbox" id="lembrar">
+            <label for="lembrar">Lembrar de mim</label>
+        </div>
+    
+        <div class="justify-center">
+            <button type="submit" onclick="logar(); return false">Entrar</button>
     </div>
-    <!-- ... existing head content ... -->
+   </form>
 
-    <!-- Politica de segurança na web -->
-    <meta
-      http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src '
-     self' 'unsafe-inline' https://cdnjs.cloudflare.com; 
-     style-src 'self' 'unsafe-inline' 
-     https://cdnjs.cloudflare.com 
-     https://cdn.jsdelivr.net;"/>
+   <!-- Scripts -->
+   <script src="./assets/js/funsao_mostrar_senha.js"></script>
+   <script src="./assets/js/secure/monitoring_url.js"></script>
+   <script src="./assets/js/secure/disable_web.js"></script>
 
-    <!--Função de mostrar senha-->
-    <script src="./assets/js/funsao_mostrar_senha.js"></script>
-    <!--Proteção contra alterações na URL da web-->
-    <script src="./assets/js/secure/monitoring_url.js"></script>
-    <!--Proteção contra alterações no local no site ou no index-->
-    <script src="./assets/js/secure/disable_web.js"></script>
-
-  </body>
+ 
+</body>
 </html>
