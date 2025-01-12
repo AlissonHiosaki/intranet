@@ -126,17 +126,6 @@
             setor: 'ESTOQUE',
             dataAdmissao:'11/06/2024',
         },
-         
-        {
-            foto: 'assets/photos/profile.png',
-            categoria: ['estoque'],
-            nome: 'JOAO',
-            matricula: '00000',
-            cargo: 'ASSISTENTE DE OPERACOES',
-            setor: 'ESTOQUE',
-            dataAdmissao:'00/01/2025',
-        },
-
         {
             foto: 'assets/photos/profile.png',
             categoria: ['estoque'],
