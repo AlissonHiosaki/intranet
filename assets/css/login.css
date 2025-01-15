@@ -13,7 +13,7 @@
     height: 90vh;
     margin-right: 100vh;
 }
-h1,p,img{
+h1,h2,p,img{
     color: white;
 }
 ::placeholder{
@@ -34,6 +34,13 @@ h1 {
     justify-content: center;
     justify-items: center;
     align-items: center;
+}
+h2{
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 18px;
 }
 i{
    font-size: 20px;
