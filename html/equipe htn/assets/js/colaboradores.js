@@ -165,8 +165,8 @@
         {
             foto: 'assets/photos/matheus.jpeg',
             categoria: ['gestores'],
-            nome: ' MATHEUS',
-            matricula: '41940',
+            nome: ' MATHEUS DO NASCIMENTO ',
+            matricula: '44433',
             cargo: 'GERENTE JUNIOR',
             setor: 'GESTORES',
             dataAdmissao:'23/11/2020',
