@@ -1,7 +1,7 @@
     // exibição de xml ou js na webpage
     const colaboradores = [
         {
-            foto: 'https://hiosaki-my.sharepoint.com/personal/alisson_hiosaki_intranet-blume_com/Documents/HTN/FOTO%20DOS%20COLABORADORES/aline.jpg',
+            foto: '../photos/aline.jpg',
             categoria: ['idc'],
             status: 'ATIVO',
             nome: 'ALINE COELHO',
@@ -11,7 +11,7 @@
             dataAdmissao:'29/01/2024',
         },
         {
-            foto: 'https://hiosaki-my.sharepoint.com/personal/alisson_hiosaki_intranet-blume_com/Documents/HTN/FOTO%20DOS%20COLABORADORES/alisson.jpg',
+            foto: '../photos/alisson.jpg',
             categoria: ['vm', 'lideres'],
             status: 'ATIVO',
             backup: ' ',
@@ -23,7 +23,7 @@
             dataAdmissao:'26/01/2022 ',
         },
         {
-            foto: 'https://hiosaki-my.sharepoint.com/personal/alisson_hiosaki_intranet-blume_com/Documents/HTN/FOTO%20DOS%20COLABORADORES/profile.png',
+            foto: '../photos/profile.png',
             categoria: ['idc'],
             status: 'AFASTADA',
             nome: 'APARECIDA CARIOCA ',
@@ -33,7 +33,7 @@
             dataAdmissao:'01/11/2023',
         },
         {
-            foto: 'https://hiosaki-my.sharepoint.com/personal/alisson_hiosaki_intranet-blume_com/Documents/HTN/FOTO%20DOS%20COLABORADORES/profile.png',
+            foto: '../photos/profile.png',
             status: 'FERIAS',
             categoria: ['vendas'],
             nome: 'CAMILA SALUSTIANO ',
@@ -43,7 +43,7 @@
             dataAdmissao:'26/11/2014 ',
         },
         {
-            foto: 'https://hiosaki-my.sharepoint.com/personal/alisson_hiosaki_intranet-blume_com/Documents/HTN/FOTO%20DOS%20COLABORADORES/profile.png',
+            foto: '../photos/profile.png',
             categoria: ['idc'],
             status: 'ATIVO',
             nome: 'CRISTIANE BENTO',
@@ -53,7 +53,7 @@
             dataAdmissao:'05/11/2024',
         },
         {
-            foto: 'https://hiosaki-my.sharepoint.com/personal/alisson_hiosaki_intranet-blume_com/Documents/HTN/FOTO%20DOS%20COLABORADORES/eduarda.jpg',
+            foto: '../photos/eduarda.jpg',
             categoria: ['vendas'],
             status: 'ATIVO',
             nome: 'EDUARDA GUIMARAES',
@@ -63,7 +63,7 @@
             dataAdmissao:'05/09/2024',
         },
         {
-            foto: 'https://hiosaki-my.sharepoint.com/personal/alisson_hiosaki_intranet-blume_com/Documents/HTN/FOTO%20DOS%20COLABORADORES/Elis.jpg',
+            foto: '../photos/Elis.jpg',
             categoria: ['vendas'],
             status: 'ATIVO',
             nome: 'ELIS PAULA',
@@ -73,7 +73,7 @@
             dataAdmissao:'29/05/2023',
         },
         {
-            foto: 'https://hiosaki-my.sharepoint.com/personal/alisson_hiosaki_intranet-blume_com/Documents/HTN/FOTO%20DOS%20COLABORADORES/Ester.jpg',
+            foto: '../photos/Ester.jpg',
             categoria: ['vendas'],
             status: 'ATIVO',
             nome: 'ESTER LIMA',
@@ -83,7 +83,7 @@
             dataAdmissao:'05/12/2023',
         },
         {
-            foto: 'https://hiosaki-my.sharepoint.com/personal/alisson_hiosaki_intranet-blume_com/Documents/HTN/FOTO%20DOS%20COLABORADORES/Gabriel.jpg',
+            foto: '../photos/Gabriel.jpg',
             categoria: ['idc'],
             status: 'ATIVO',
             nome: 'GABRIEL SIPRAKI',
@@ -93,7 +93,7 @@
             dataAdmissao:'08/03/2023',
         },
         {
-            foto: 'https://hiosaki-my.sharepoint.com/personal/alisson_hiosaki_intranet-blume_com/Documents/HTN/FOTO%20DOS%20COLABORADORES/profile.png',
+            foto: '../photos/profile.png',
             categoria: ['ESTOQUE'],
             status: 'ATIVO',
             nome: 'GERSON',
@@ -103,7 +103,7 @@
             dataAdmissao:'02/12/2024',
         },
         {
-            foto: 'https://hiosaki-my.sharepoint.com/personal/alisson_hiosaki_intranet-blume_com/Documents/HTN/FOTO%20DOS%20COLABORADORES/gabriela.png',
+            foto: '../photos/gabriela.png',
             categoria: ['idc'],
             status: 'ATIVO',
             nome: 'GABRIELA CAMARGO',
@@ -113,7 +113,7 @@
             dataAdmissao:'01/09/2023',
         },
         {
-            foto: 'https://hiosaki-my.sharepoint.com/personal/alisson_hiosaki_intranet-blume_com/Documents/HTN/FOTO%20DOS%20COLABORADORES/profile.png',
+            foto: '../photos/profile.png',
             categoria: ['idc'],
             status: 'ATIVO',
             nome: 'JANAINA PESSOA',
@@ -123,7 +123,7 @@
             dataAdmissao:'',
         },
         {
-            foto: 'https://hiosaki-my.sharepoint.com/personal/alisson_hiosaki_intranet-blume_com/Documents/HTN/FOTO%20DOS%20COLABORADORES/profile.png',
+            foto: '../photos/profile.png',
             categoria: ['vendas'],
             status: 'ATIVO',
             nome: 'JASIELE CORDEIRO',
@@ -133,7 +133,7 @@
             dataAdmissao:'10/09/2024',
         },
         {
-            foto: 'https://hiosaki-my.sharepoint.com/personal/alisson_hiosaki_intranet-blume_com/Documents/HTN/FOTO%20DOS%20COLABORADORES/jessica.jpg',
+            foto: '../photos/jessica.jpg',
             categoria: ['idc','lideres'],
             status: 'ATIVO',
             nome: 'JESSICA THOMAZ',
@@ -143,7 +143,7 @@
             dataAdmissao:'26/11/2012',
         },
         {
-            foto: 'https://hiosaki-my.sharepoint.com/personal/alisson_hiosaki_intranet-blume_com/Documents/HTN/FOTO%20DOS%20COLABORADORES/profile.png',
+            foto: '../photos/profile.png',
             categoria: ['estoque'],
             status: 'ATIVO',
             nome: 'JOAO SANTOS',
@@ -153,7 +153,7 @@
             dataAdmissao:'11/06/2024',
         },
         {
-            foto: 'https://hiosaki-my.sharepoint.com/personal/alisson_hiosaki_intranet-blume_com/Documents/HTN/FOTO%20DOS%20COLABORADORES/profile.png',
+            foto: '../photos/profile.png',
             categoria: ['estoque'],
             status: 'ATIVO',
             nome: 'LAVINIA SILVA',
@@ -163,7 +163,7 @@
             dataAdmissao:'02/07/2024',
         },
         {
-            foto: 'https://hiosaki-my.sharepoint.com/personal/alisson_hiosaki_intranet-blume_com/Documents/HTN/FOTO%20DOS%20COLABORADORES/profile.png',
+            foto: '../photos/profile.png',
             categoria: ['vendas'],
             status: 'ATIVO',
             nome: 'LENITA PLACIDO',
@@ -173,7 +173,7 @@
             dataAdmissao:'26/04/2023',
         },
         {
-            foto: 'https://hiosaki-my.sharepoint.com/personal/alisson_hiosaki_intranet-blume_com/Documents/HTN/FOTO%20DOS%20COLABORADORES/profile.png',
+            foto: '../photos/profile.png',
             categoria: ['vendas'],
             status: 'ATIVO',
             nome: 'LEONARDO PEREIRA',
@@ -183,7 +183,7 @@
             dataAdmissao:'20/08/2024',
         },
         {
-            foto: 'https://hiosaki-my.sharepoint.com/personal/alisson_hiosaki_intranet-blume_com/Documents/HTN/FOTO%20DOS%20COLABORADORES/Maira.jpg',
+            foto: '../photos/Maira.jpg',
             categoria: ['estoque'],
             status: 'ATIVO',
             nome: 'MAIRA ANDRADE',
@@ -193,7 +193,7 @@
             dataAdmissao:'06/12/2023',
         },
         {
-            foto: 'https://hiosaki-my.sharepoint.com/personal/alisson_hiosaki_intranet-blume_com/Documents/HTN/FOTO%20DOS%20COLABORADORES/matheus.jpg',
+            foto: '../photos/matheus.jpg',
             categoria: ['gestores'],
             status: 'ATIVO',
             nome: ' MATHEUS',
@@ -203,7 +203,7 @@
             dataAdmissao:'23/11/2020',
         },
         {
-            foto: 'https://hiosaki-my.sharepoint.com/personal/alisson_hiosaki_intranet-blume_com/Documents/HTN/FOTO%20DOS%20COLABORADORES/Mirela.png',
+            foto: '../photos/Mirela.png',
             categoria: ['idc'],
             status: 'ATIVO',
             nome: 'MIRELA FERREIRA',
@@ -213,7 +213,7 @@
             dataAdmissao:'10/09/2024',
         },
         {
-            foto: 'https://hiosaki-my.sharepoint.com/personal/alisson_hiosaki_intranet-blume_com/Documents/HTN/FOTO%20DOS%20COLABORADORES/profile.png',
+            foto: '../photos/profile.png',
             categoria: ['vendas'],
             status: 'ATIVO',
             nome: 'NAYRIANE ROCHA',
@@ -223,7 +223,7 @@
             dataAdmissao:'24/01/2024',
         },
         {
-            foto: 'https://hiosaki-my.sharepoint.com/personal/alisson_hiosaki_intranet-blume_com/Documents/HTN/FOTO%20DOS%20COLABORADORES/Rhyan.jpg',
+            foto: '../photos/Rhyan.jpg',
             categoria: ['vendas'],
             status: 'FERIAS',
             nome: 'RHYAN LEMOS',
@@ -233,7 +233,7 @@
             dataAdmissao:'27/04/2023',
         },
         {
-            foto: 'https://hiosaki-my.sharepoint.com/personal/alisson_hiosaki_intranet-blume_com/Documents/HTN/FOTO%20DOS%20COLABORADORES/profile.png',
+            foto: '../photos/profile.png',
             categoria: ['vendas'],
             status: 'ATIVO',
             nome: 'SAMIRA DOS SANTOS',
@@ -243,7 +243,7 @@
             dataAdmissao:'10/06/2024',
         },
         {
-            foto: 'https://hiosaki-my.sharepoint.com/personal/alisson_hiosaki_intranet-blume_com/Documents/HTN/FOTO%20DOS%20COLABORADORES/sergio.jpg',
+            foto: '../photos/sergio.jpg',
             categoria: ['gestores'],
             status: 'ATIVO',
             nome: 'SERGIO MUZIOL',
@@ -253,7 +253,7 @@
             dataAdmissao:'12/05/2017',
         },
         {
-            foto: 'https://hiosaki-my.sharepoint.com/personal/alisson_hiosaki_intranet-blume_com/Documents/HTN/FOTO%20DOS%20COLABORADORES/victor.jpg',
+            foto: '../photos/victor.jpg',
             categoria: ['estoque','lideres'],
             status: 'ATIVO',
             nome: 'VICTOR SILVA',
@@ -263,16 +263,9 @@
             dataAdmissao:'06/07/2017',
         },
         {
-            foto: 'https://hiosaki-my.sharepoint.com/personal/alisson_hiosaki_intranet-blume_com/Documents/HTN/FOTO%20DOS%20COLABORADORES/profile.png',
+            foto: '../photos/profile.png',
             categoria: ['vendas'],
             status: 'ATIVO',
             nome: 'WARLEY OLIVEIRA',
             matricula: '38777',
-            cargo: 'VENDEDOR',
-            setor: 'VENDAS',
-            dataAdmissao:'16/11/2021',
-        },
-
-    ];
-
-   
+           ../photos/
