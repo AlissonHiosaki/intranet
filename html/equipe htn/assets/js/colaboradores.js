@@ -268,4 +268,9 @@
             status: 'ATIVO',
             nome: 'WARLEY OLIVEIRA',
             matricula: '38777',
-           ../photos/
+            cargo: 'VENDEDOR',
+            setor: 'VENDAS',
+            dataAdmissao:'16/11/2021',
+        },
+
+    ];
