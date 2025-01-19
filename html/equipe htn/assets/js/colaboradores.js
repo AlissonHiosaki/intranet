@@ -13,7 +13,7 @@
         {
             foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/alisson.jpeg',
             categoria: ['vm', 'lideres'],
-	    status: 'ATIVO',
+			status: 'ATIVO',
             nome: 'ALISSON HIOSAKI ',
             matricula: '39633 ',
             cargo: 'VISUAL MERCHANDISING ',
@@ -23,7 +23,7 @@
         {
             foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/profile.png',
             categoria: ['idc'],
-	    status: 'AFASTADA',
+			status: 'AFASTADA',
             nome: 'APARECIDA CARIOCA ',
             matricula: '42850 ',
             cargo: 'OPERADORA DE LOJA ',
@@ -33,7 +33,7 @@
         {
             foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/profile.png',
             categoria: ['vendas'],
-	    status: 'FERIAS',
+			status: 'FERIAS',
             nome: 'CAMILA SALUSTIANO ',
             matricula: '26144 ',
             cargo: 'VENDEDORA ',
@@ -43,7 +43,7 @@
         {
             foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/profile.png',
             categoria: ['idc'],
-	    status: 'ATIVO',
+			status: 'ATIVO',
             nome: 'CRISTIANE BENTO',
             matricula: '45113',
             cargo: 'OPERADORA DE LOJA',
@@ -53,7 +53,7 @@
         {
             foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/eduarda.jpg',
             categoria: ['vendas'],
-	    status: 'ATIVO',
+			status: 'ATIVO',
             nome: 'EDUARDA GUIMARAES',
             matricula: '44775',
             cargo: 'VENDEDORA',
@@ -63,7 +63,7 @@
         {
             foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/Elis.jpg',
             categoria: ['vendas'],
-	    status: 'ATIVO',
+			status: 'ATIVO',
             nome: 'ELIS PAULA',
             matricula: '42170',
             cargo: 'VENDEDORA',
@@ -73,7 +73,7 @@
         {
             foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/Ester.jpg',
             categoria: ['vendas'],
-	    status: 'ATIVO',
+			status: 'ATIVO',
             nome: 'ESTER LIMA',
             matricula: '43546',
             cargo: 'VENDEDORA',
@@ -83,7 +83,7 @@
         {
             foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/Gabriel.jpg',
             categoria: ['idc'],
-	    status: 'ATIVO',
+			status: 'ATIVO',
             nome: 'GABRIEL SIPRAKI',
             matricula: '41818',
             cargo: 'OPERADOR DE LOJA',
@@ -93,7 +93,7 @@
         {
             foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/gabriela.png',
             categoria: ['idc'],
-	    status: 'ATIVO',
+			status: 'ATIVO',
             nome: 'GABRIELA CAMARGO',
             matricula: '42526',
             cargo: 'OPERADORA DE LOJA',
@@ -103,7 +103,7 @@
         {
             foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/profile.png',
             categoria: ['idc'],
-	    status: 'ATIVO',,
+			status: 'ATIVO',
             nome: 'JANAINA PESSOA',
             matricula: '44986',
             cargo: 'OPERADORA DE LOJA',
@@ -113,7 +113,7 @@
         {
             foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/jaciele.jpg',
             categoria: ['vendas'],
-	    status: 'ATIVO',
+			status: 'ATIVO',
             nome: 'JASIELE CORDEIRO',
             matricula: '44786',
             cargo: 'VENDEDORA',
@@ -123,7 +123,7 @@
         {
             foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/jessica.jpeg',
             categoria: ['idc','lideres'],
-	    status: 'ATIVO',
+			status: 'ATIVO',
             nome: 'JESSICA THOMAZ',
             matricula: '21121',
             cargo: 'ANALISTA ADMINISTRATIVO',
@@ -133,7 +133,7 @@
         {
             foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/profile.png',
             categoria: ['estoque'],
-	    status: 'ATIVO',
+			status: 'ATIVO',
             nome: 'JOAO SANTOS',
             matricula: '44420',
             cargo: 'ASSISTENTE DE OPERACOES',
@@ -143,7 +143,7 @@
         {
             foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/lavinia.jpg',
             categoria: ['estoque'],
-	    status: 'ATIVO',
+			status: 'ATIVO',
             nome: 'LAVINIA SILVA',
             matricula: '44456',
             cargo: 'ASSISTENTE DE OPERACOES',
@@ -153,7 +153,7 @@
         {
             foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/profile.png',
             categoria: ['vendas'],
-	    status: 'ATIVO',
+			status: 'ATIVO',
             nome: 'LENITA PLACIDO',
             matricula: '42046',
             cargo: 'VENDEDORA',
@@ -163,7 +163,7 @@
         {
             foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/profile.png',
             categoria: ['vendas'],
-	    status: 'ATIVO',
+			status: 'ATIVO',
             nome: 'LEONARDO PEREIRA',
             matricula: '44688',
             cargo: 'VENDEDOR',
@@ -173,7 +173,7 @@
         {
             foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/Maira.jpg',
             categoria: ['estoque'],
-	    status: 'ATIVO',
+			status: 'ATIVO',
             nome: 'MAIRA ANDRADE',
             matricula: '43619',
             cargo: 'ASSISTENTE DE OPERACOES',
@@ -183,7 +183,7 @@
         {
             foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/matheus.jpeg',
             categoria: ['gestores'],
-	    status: 'ATIVO',
+			status: 'ATIVO',
             nome: ' MATHEUS',
             matricula: '41940',
             cargo: 'GERENTE JUNIOR',
@@ -193,7 +193,6 @@
         {
             foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/Mirela.png',
             categoria: ['idc'],
-	    status: 'ATIVO',
             nome: 'MIRELA FERREIRA',
             matricula: '44790',
             cargo: 'OPERADORA DE LOJA',
@@ -203,7 +202,7 @@
         {
             foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/profile.png',
             categoria: ['vendas'],
-	    status: 'ATIVO',
+			status: 'ATIVO',
             nome: 'NAYRIANE ROCHA',
             matricula: '43901',
             cargo: 'VENDEDORA',
@@ -213,7 +212,7 @@
         {
             foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/Rhyan.jpg',
             categoria: ['vendas'],
-	    status: 'FERIAS',
+			status: 'FERIAS',
             nome: 'RHYAN LEMOS',
             matricula: '42066',
             cargo: 'VENDEDOR',
@@ -223,7 +222,7 @@
         {
             foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/samira.jpg',
             categoria: ['vendas'],
-	    status: 'ATIVO',
+			status: 'ATIVO',
             nome: 'SAMIRA DOS SANTOS',
             matricula: '44414',
             cargo: 'VENDEDORA',
@@ -233,7 +232,7 @@
         {
             foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/sergio.jpg',
             categoria: ['gestores'],
-	    status: 'ATIVO',
+			status: 'ATIVO',
             nome: 'SERGIO MUZIOL',
             matricula: '40926',
             cargo: 'GERENTE',
@@ -243,7 +242,7 @@
         {
             foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/victor.jpeg',
             categoria: ['estoque','lideres'],
-	    status: 'FERIAS',
+			status: 'FERIAS',
             nome: 'VICTOR SILVA',
             matricula: '32036',
             cargo: 'ANALISTA DE OPERACOES',
@@ -253,7 +252,7 @@
         {
             foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/profile.png',
             categoria: ['vendas'],
-	    status: 'ATIVO',
+			status: 'ATIVO',
             nome: 'WARLEY OLIVEIRA',
             matricula: '38777',
             cargo: 'VENDEDOR',
