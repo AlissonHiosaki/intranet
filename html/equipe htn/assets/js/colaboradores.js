@@ -1,7 +1,7 @@
     // exibição de xml ou js na webpage
     const colaboradores = [
         {
-            foto: 'assets/photos/Aline.jpg',
+            foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/Aline.jpg',
             categoria: ['idc'],
             status: 'ATIVO',
             nome: 'ALINE COELHO',
@@ -11,7 +11,7 @@
             dataAdmissao:'29/01/2024',
         },
         {
-            foto: 'assets/photos/alisson.jpeg',
+            foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/alisson.jpeg',
             categoria: ['vm', 'lideres'],
 			status: 'ATIVO',
             nome: 'ALISSON HIOSAKI ',
@@ -21,7 +21,7 @@
             dataAdmissao:'26/01/2022 ',
         },
         {
-            foto: 'assets/photos/profile.png',
+            foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/profile.png',
             categoria: ['idc'],
 			status: 'AFASTADA',
             nome: 'APARECIDA CARIOCA ',
@@ -31,7 +31,7 @@
             dataAdmissao:'01/11/2023',
         },
         {
-            foto: 'assets/photos/profile.png',
+            foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/profile.png',
             categoria: ['vendas'],
 			status: 'FERIAS',
             nome: 'CAMILA SALUSTIANO ',
@@ -41,7 +41,7 @@
             dataAdmissao:'26/11/2014 ',
         },
         {
-            foto: 'assets/photos/profile.png',
+            foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/profile.png',
             categoria: ['idc'],
 			status: 'ATIVO',
             nome: 'CRISTIANE BENTO',
@@ -51,7 +51,7 @@
             dataAdmissao:'',
         },
         {
-            foto: 'assets/photos/eduarda.jpg',
+            foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/profile.png',
             categoria: ['vendas'],
 			status: 'ATIVO',
             nome: 'EDUARDA GUIMARAES',
@@ -61,7 +61,7 @@
             dataAdmissao:'05/09/2024',
         },
         {
-            foto: 'assets/photos/Elis.jpg',
+            foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/Elis.jpg',
             categoria: ['vendas'],
 			status: 'ATIVO',
             nome: 'ELIS PAULA',
@@ -71,7 +71,7 @@
             dataAdmissao:'29/05/2023',
         },
         {
-            foto: 'assets/photos/Ester.jpg',
+            foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/Ester.jpg',
             categoria: ['vendas'],
 			status: 'ATIVO',
             nome: 'ESTER LIMA',
@@ -81,7 +81,7 @@
             dataAdmissao:'05/12/2023',
         },
         {
-            foto: 'assets/photos/Gabriel.jpg',
+            foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/Gabriel.jpg',
             categoria: ['idc'],
 			status: 'ATIVO',
             nome: 'GABRIEL SIPRAKI',
@@ -91,7 +91,7 @@
             dataAdmissao:'08/03/2023',
         },
         {
-            foto: 'assets/photos/gabriela.png',
+            foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/gabriela.png',
             categoria: ['idc'],
 			status: 'ATIVO',
             nome: 'GABRIELA CAMARGO',
@@ -101,7 +101,7 @@
             dataAdmissao:'01/09/2023',
         },
         {
-            foto: 'assets/photos/profile.png',
+            foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/profile.png',
             categoria: ['idc'],
 			status: 'ATIVO',
             nome: 'JANAINA PESSOA',
@@ -111,7 +111,7 @@
             dataAdmissao:'',
         },
         {
-            foto: 'assets/photos/jaciele.jpg',
+            foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/jaciele.jpg',
             categoria: ['vendas'],
 			status: 'ATIVO',
             nome: 'JASIELE CORDEIRO',
@@ -121,7 +121,7 @@
             dataAdmissao:'10/09/2024',
         },
         {
-            foto: 'assets/photos/jessica.jpeg',
+            foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/jessica.jpeg',
             categoria: ['idc','lideres'],
 			status: 'ATIVO',
             nome: 'JESSICA THOMAZ',
@@ -131,7 +131,7 @@
             dataAdmissao:'26/11/2012',
         },
         {
-            foto: 'assets/photos/profile.png',
+            foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/profile.png',
             categoria: ['estoque'],
 			status: 'ATIVO',
             nome: 'JOAO SANTOS',
@@ -141,7 +141,7 @@
             dataAdmissao:'11/06/2024',
         },
         {
-            foto: 'assets/photos/lavinia.jpg',
+            foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/profile.png',
             categoria: ['estoque'],
 			status: 'ATIVO',
             nome: 'LAVINIA SILVA',
@@ -151,7 +151,7 @@
             dataAdmissao:'02/07/2024',
         },
         {
-            foto: 'assets/photos/profile.png',
+            foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/profile.png',
             categoria: ['vendas'],
 			status: 'ATIVO',
             nome: 'LENITA PLACIDO',
@@ -161,7 +161,7 @@
             dataAdmissao:'26/04/2023',
         },
         {
-            foto: 'assets/photos/profile.png',
+            foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/profile.png',
             categoria: ['vendas'],
 			status: 'ATIVO',
             nome: 'LEONARDO PEREIRA',
@@ -171,7 +171,7 @@
             dataAdmissao:'20/08/2024',
         },
         {
-            foto: 'assets/photos/Maira.jpg',
+            foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/Maira.jpg',
             categoria: ['estoque'],
 			status: 'ATIVO',
             nome: 'MAIRA ANDRADE',
@@ -181,7 +181,7 @@
             dataAdmissao:'06/12/2023',
         },
         {
-            foto: 'assets/photos/matheus.jpeg',
+            foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/matheus.jpeg',
             categoria: ['gestores'],
 			status: 'ATIVO',
             nome: ' MATHEUS',
@@ -191,7 +191,7 @@
             dataAdmissao:'23/11/2020',
         },
         {
-            foto: 'assets/photos/Mirela.png',
+            foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/Mirela.png',
             categoria: ['idc'],
             nome: 'MIRELA FERREIRA',
             matricula: '44790',
@@ -200,7 +200,7 @@
             dataAdmissao:'10/09/2024',
         },
         {
-            foto: 'assets/photos/profile.png',
+            foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/profile.png',
             categoria: ['vendas'],
 			status: 'ATIVO',
             nome: 'NAYRIANE ROCHA',
@@ -210,7 +210,7 @@
             dataAdmissao:'24/01/2024',
         },
         {
-            foto: 'assets/photos/Rhyan.jpg',
+            foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/Rhyan.jpg',
             categoria: ['vendas'],
 			status: 'FERIAS',
             nome: 'RHYAN LEMOS',
@@ -220,7 +220,7 @@
             dataAdmissao:'27/04/2023',
         },
         {
-            foto: 'assets/photos/samira.jpg',
+            foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/profile.png',
             categoria: ['vendas'],
 			status: 'ATIVO',
             nome: 'SAMIRA DOS SANTOS',
@@ -230,7 +230,7 @@
             dataAdmissao:'10/06/2024',
         },
         {
-            foto: 'assets/photos/sergio.jpg',
+            foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/sergio.jpg',
             categoria: ['gestores'],
 			status: 'ATIVO',
             nome: 'SERGIO MUZIOL',
@@ -240,7 +240,7 @@
             dataAdmissao:'12/05/2017',
         },
         {
-            foto: 'assets/photos/victor.jpeg',
+            foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/victor.jpeg',
             categoria: ['estoque','lideres'],
 			status: 'FERIAS',
             nome: 'VICTOR SILVA',
@@ -250,7 +250,7 @@
             dataAdmissao:'06/07/2017',
         },
         {
-            foto: 'assets/photos/profile.png',
+            foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/profile.png',
             categoria: ['vendas'],
 			status: 'ATIVO',
             nome: 'WARLEY OLIVEIRA',
