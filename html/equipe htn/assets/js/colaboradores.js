@@ -48,7 +48,7 @@
             matricula: '45113',
             cargo: 'OPERADORA DE LOJA',
             setor: 'CAIXA/CREDIARIO',
-            dataAdmissao:'',
+            dataAdmissao:'05/11/2024',
         },
         {
             foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/eduarda.jpg',
@@ -108,7 +108,7 @@
             matricula: '44986',
             cargo: 'OPERADORA DE LOJA',
             setor: 'CAIXA/CREDIARIO',
-            dataAdmissao:'',
+            dataAdmissao:'10/10/2024',
         },
         {
             foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/jaciele.jpg',
@@ -261,5 +261,3 @@
         },
 
     ];
-
-   
