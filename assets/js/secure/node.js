@@ -10,7 +10,7 @@ function logar() {
         12345678910: '43915',//Aline
         37689876803: '42850',//Aparecida
         36882814899: '26144',//Camila
-        40687208866: '45113',//Cristiane
+        36882814899: '45113',//Cristiane
         39416777803: '44775',//Eduarda
         50583856861: '42170',//Elis Paula
         12345678910: '43546',//Ester 09238448566
@@ -24,26 +24,37 @@ function logar() {
         47581113833: '42046',//Lenita
         46274811877: '44688',//Leonardo
         55287471807: '43619',//Maira
+        12345678910: '44433',//Matheus
         48820058839: '44790',//Mirela
         42062482817: '43901',//Nayriane
         52315031850: '42066',//Rhyan
         39416803820: '44414',//Samira
+        12345678910: '40929',//Sergio
         45354530806: '32036',//Victor
         45414023867: '38777',//Warley
-    
-
-        // Exemplo de credenciais
-        // Adicione mais usuários conforme necessário
     };
 
     // Valida o login
     if (usuariosValidos[login] && usuariosValidos[login] === senha) {
-        location.href = "./html/equipe htn/index.html"; // Redireciona para a página home
+        // Exibe a mensagem de boas-vindas
+        exibirMensagemBoasVindas(login);
+
+        // Redireciona para a página home
+        location.href = "./html/equipe htn/index.html"; 
     } else {
         // Exibe uma mensagem de erro
         exibirMensagemErro('Usuário ou senha incorreta. Tente novamente.');
         limparCampos(); // Limpa os campos de entrada
     }
+}
+
+// Função para exibir mensagens de boas-vindas
+function exibirMensagemBoasVindas(usuario) {
+    const boasVindasElement = document.getElementById('boasVindasMessage');
+    
+    // Exibe a mensagem de boas-vindas personalizada (por exemplo, com o número do login ou nome do usuário)
+    boasVindasElement.textContent = `Bem-vindo, ${usuario}! Você está logado com sucesso.`;
+    boasVindasElement.style.display = 'block'; // Exibe o elemento
 }
 
 // Função para exibir mensagens de erro
