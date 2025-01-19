@@ -4,7 +4,7 @@
             foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/Aline.jpg',
             categoria: ['idc'],
             status: 'ATIVO',
-            nome: 'ALINE COELHO',
+            nome: 'ALINE AMARAL',
             matricula: '43915',
             cargo: 'OPERADORA DE LOJA',
             setor: 'CAIXA/CREDIARIO',
