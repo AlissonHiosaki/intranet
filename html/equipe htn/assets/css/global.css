@@ -74,6 +74,7 @@ body::-webkit-scrollbar {
     height: 200px;
     object-fit: cover;
     border-bottom: 1px solid #ddd;
+    background-color: white;
 }
 
 .card .info {
@@ -109,12 +110,29 @@ body::-webkit-scrollbar {
     padding: 10px 15px;
     border-radius: 5px;
     cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
 }
 
 .menu-categorias .filter-btn:hover {
-    background-color: #AEEA00;
+    background-color: #789b11;
 }
-
+.logout{
+    background-color: #AEEA00;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.logout:hover{
+    background-color: #789b11;
+} a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+}
 .popup-btn{
     background-color: #AEEA00;
     color: black;
@@ -154,18 +172,24 @@ body::-webkit-scrollbar {
 
 .close {
     position: absolute;
-    top: 10px;
-    right: 20px;
+    top: 60px;
+    right: 100px;
     color: white;
     font-size: 30px;
     font-weight: bold;
     cursor: pointer;
+    background-color: red;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: 2px solid #9e9fa2;
+    overflow: hidden;
 }
 
 .close:hover,
 .close:focus {
-    color: #aaa;
+    color: white;
     text-decoration: none;
+    background-color: rgb(171, 0, 0);
     cursor: pointer;
 }
 .logo-modal{
