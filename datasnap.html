@@ -49,7 +49,9 @@
   
 <body class="login" >
 
-   <form>
+  <form action="./html/equipe htn/index.html">
+    <input id="anchor" type="hidden" name="colaborador042" value="">
+        <input type="hidden" name="logintoken" value="user-htn-dataSnap-session">
     <div>
         <img src="./assets/logo/logo 2.png" alt="logo htn">
         <h1>Entre com sua conta</h1>
@@ -57,15 +59,15 @@
         
         <!--campo para login-->
 
-       
-        <input type="text" id="login" placeholder="Usuário" >
+        <p>Usuário e Matrícula</p>
+        <input type="text" id="login" placeholder="Usuário:" >
         <p></p>
 
         <!--exibir senha no input-->
-        
-        <input type="password" id="senha" placeholder="Senha">
+        <input type="password" id="senha" placeholder="Senha:">
          <!--botão para mostrar/esconder senha-->
          <i onclick="mostrarSenha()" class="bi bi-eye-fill"id="btn-senha"></i>
+         
         <!--mensagem de erro-->
         <p id="errorMessage"></p>
 
@@ -73,11 +75,13 @@
             <button type="submit" onclick="logar(); return false">Entrar</button>
     </div>
    </form>
+   
 
    <!-- Scripts -->
    <script src="./assets/js/funsao_mostrar_senha.js"></script>
    <script src="./assets/js/secure/monitoring_url.j"></script>
    <script src="./assets/js/secure/disable_web.j"></script>
    <script src="./assets/js/secure/node.js"></script>
+ 
 </body>
 </html>
