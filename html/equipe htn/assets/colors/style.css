@@ -1,0 +1,32 @@
+/* Paletas de color DarkMode*/
+.backgroud{
+    background-color: #0d1117;
+    color: #111f16;
+}
+
+.cards{
+    background-color: #161a20;
+    border: 1px solid #33363b;
+}
+
+.dudles{
+    background-color: #22a6f1;
+    color: #252d35;
+}
+/* Paletas de color DarkMode*/
+
+/* Paletas de color DarkMode githib*/
+.backgroud{
+    background-color: #010409;
+    color: #0d1117;
+}
+
+.cards{
+    background-color: #151b23;
+    border: 1px solid #3d444d;
+}
+
+.dudles{
+    background-color: #22a6f1;
+    color: #238636;
+}

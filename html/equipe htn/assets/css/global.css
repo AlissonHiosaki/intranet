@@ -181,23 +181,3 @@ body::-webkit-scrollbar {
     max-height: 80%;
     
 }
-
-#btnTopo {
-    display: none; /* Começa invisível */
-    position: fixed; /* Fica no mesmo lugar mesmo com o scroll */
-    bottom: 20px; /* Distância do botão em relação ao rodapé */
-    right: 20px; /* Distância do botão em relação à lateral direita */
-    z-index: 1000; /* Fica acima de outros elementos */
-    background-color: #AEEA00; /* Cor de fundo */
-    color: white; /* Cor do texto */
-    border: none; /* Sem borda */
-    border-radius: 50%; /* Botão circular */
-    padding: 15px; /* Tamanho do botão */
-    cursor: pointer; /* Ícone de mão ao passar por cima */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
-    transition: opacity 0.3s; /* Efeito suave ao mostrar/esconder */
-  }
-  
-  #btnTopo:hover {
-    background-color:#9ccc00 ; /* Tom mais escuro ao passar o mouse */
-  }

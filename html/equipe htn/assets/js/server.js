@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <img src="${colaborador.foto}" alt="${colaborador.nome}" class="foto">
             <div class="info">
                 <h3>${colaborador.nome}</h3>
+                <p>Status: ${colaborador.status}</p>
                 <p>Matrícula: ${colaborador.matricula}</p>
                 <p>Cargo: ${colaborador.cargo}</p>
                 <p>Setor: ${colaborador.setor}</p>
