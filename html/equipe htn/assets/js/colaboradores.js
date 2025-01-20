@@ -240,7 +240,7 @@ dataAdmissao:'29/01/2024',
             dataAdmissao:'10/09/2024',
         },
         {
-            foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/profile.png',
+            foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/nayriane.jpg',
             categoria: ['vendas'],
 			status: 'ATIVO',
             nome: 'NAYRIANE ROCHA',
