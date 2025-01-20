@@ -2,10 +2,10 @@
     const colaboradores = [
         {
             foto: 'https://alissonhiosaki.github.io/intranet/html/equipe%20htn/assets/photos/Aline.jpg',
-            categoria: ['idc'],
-            status: 'ATIVO',
-            nome: 'ALINE COELHO',
-            matricula: '43915',
+categoria: ['idc'],
+status: 'ATIVO',
+nome: 'ALINE COELHO',
+matricula: '43915',
             cpf: 'null',
 		        	telefone: 'null',
             cargo: 'OPERADORA DE LOJA',
