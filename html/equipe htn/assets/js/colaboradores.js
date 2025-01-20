@@ -280,7 +280,7 @@
             categoria: ['gestores'],
 			status: 'ATIVO',
             nome: 'SERGIO MUZIOL',
-            matricula: '40926',
+            matricula: '43984',
 			cpf: 'null',
 			telefone: 'null',
             cargo: 'GERENTE',
