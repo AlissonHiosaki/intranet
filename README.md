@@ -1,5 +1,5 @@
 <p aling="center">
-<img src="https://alissonhiosaki.github.io/server.blume/lib/image/webicon/favicon.svg" width="400" alt="Alisson Hiosaki"></p>
+<img src="https://alissonhiosaki.github.io/server.blume/img/favicon.svg" width="400" alt="Alisson Hiosaki"></p>
 <h1 aling="center">Website</h1>
 <h2 aling="center"><a href="www.linkedin.com/in/alissonhiosaki">Alisson Hiosaki</a>Linkkedin</h2>
 
