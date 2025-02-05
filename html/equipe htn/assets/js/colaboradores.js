@@ -313,3 +313,37 @@ dataAdmissao:'29/01/2024',
         },
 
     ];
+
+// Essa função atualiza a tabela de colaboradores
+function preencherTabela() {
+    const tabelaCorpo = document.getElementById('resultados');
+    tabelaCorpo.innerHTML = '';
+    colaboradores.forEach((colaborador, index) => {
+        const linha = document.createElement('tr');
+        linha.innerHTML = `
+            <td contenteditable="true">${colaborador.matricula}</td>
+            <td contenteditable="true">${colaborador.nome}</td>
+            <td contenteditable="true">${colaborador.cargo}</td>
+            <td contenteditable="true">${colaborador.setor}</td>
+            <td contenteditable="true">${colaborador.dataAdmissao}</td>
+            <td>${calcularTempoDeCasa(colaborador.dataAdmissao)}</td>
+        `;
+        linha.addEventListener('blur', (event) => atualizarColaborador(event, index), true);
+        tabelaCorpo.appendChild(linha);
+    });
+}
+
+function calcularTempoDeCasa(dataAdmissao) {
+    if (!dataAdmissao) return 'Server Error 500';
+    const hoje = new Date();
+    const admissao = new Date(dataAdmissao);
+    const diffMillis = hoje - admissao;
+    const diffDias = Math.floor(diffMillis / (1000 * 60 * 60 * 24));
+    const anos = Math.floor(diffDias / 365);
+    const meses = Math.floor((diffDias % 365) / 30);
+    const dias = (diffDias % 365) % 30;
+    return `${anos > 0 ? anos + ' anos ' : ''}${meses > 0 ? meses + ' meses ' : ''}${dias > 0 ? dias + ' dias' : ''}`.trim() || 'Menos de 1 dia';
+}
+
+// Inicializa a tabela com os dados dos colaboradores
+preencherTabela();
