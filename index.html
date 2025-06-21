@@ -1,83 +1,164 @@
-<!--Alisson Hiosaki ©️2024-->
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CDN Bootstrap -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-    />
-    <link rel="stylesheet" href="./assets/css/bootstrap.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Top Vendedores - HTN</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-    <!-- Ícones locais do Bootstrap -->
-    <link href="./bootstrap/css/bootstrap-icons.css" rel="stylesheet" />
-    <link href="./bootstrap/css/bootstrap-icons.json" rel="stylesheet" />
-    <link href="./bootstrap/fonts/bootstrap-icons.woff" rel="stylesheet" />
-    <link href="./bootstrap/fonts/bootstrap-icons.woff2" rel="stylesheet" />
-    <style>
-      @font-face {
-        font-family: "bootstrap-icons";
-        src: url("./bootstrap/fonts/bootstrap-icons.woff2") format("woff2"),
-          url("./bootstrap/fonts/bootstrap-icons.woff") format("woff");
-      }
-    </style>
+    body {
+      font-family: sans-serif;
+      background: #fff;
+    }
 
-    <!-- Node.js -->
-    <script src="./assets/js/node.js"></script>
+    .header {
+      background: #555;
+      color: white;
+      padding: 10px;
+      text-align: right;
+      font-size: 14px;
+    }
 
-    <!-- Estilos -->
-    <link rel="stylesheet" href="./assets/css/login.css" />
-    <link rel="stylesheet" href="./assets/css/login-mobile.css" />
+    .menu {
+      display: flex;
+      align-items: center;
+      background: #000;
+      color: white;
+      padding: 10px;
+      justify-content: space-between;
+    }
 
-    <!-- Ícone da janela -->
-    <link rel="shortcut icon" href="./assets/logo/logo_menor.ico" />
-    <title>Portal Intranet | Humanitarian Calçados</title>
+    .menu-icon {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+    }
 
+    .menu-icon div {
+      width: 25px;
+      height: 4px;
+      background-color: #c0ff2c;
+    }
+
+    .logo {
+      font-weight: bold;
+      font-size: 20px;
+      color: white;
+    }
+
+    .content-title {
+      background-color: #c0ff2c;
+      padding: 10px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .vendedor {
+      padding: 15px;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .vendedor h3 {
+      margin: 5px 0;
+      font-size: 18px;
+    }
+
+    .vendedor p {
+      font-size: 14px;
+    }
+
+    .icon {
+      float: right;
+      font-size: 24px;
+      color: #88c41c;
+    }
+
+    .footer {
+      background: #c0ff2c;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      padding: 10px;
+      font-size: 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .footer span, .footer a {
+      margin: 0 5px;
+      text-decoration: none;
+      color: black;
+    }
+
+    .footer .bio {
+      display: flex;
+      align-items: center;
+    }
+
+    .footer .bio img {
+      width: 20px;
+      margin-right: 5px;
+    }
+
+    .footer .logout {
+      font-weight: bold;
+    }
+  </style>
 </head>
-<!-- Tela de Loading -->
-<div id="loading-screen" class="loading-screen">
-    <div class="spinner"></div>
-    <p class="p1">Carregando...</p>
-  </div>
-  <script src="./assets/js/loading.js"></script>
-  <link rel="stylesheet" href="./assets/css/loading.css" />
+<body>
 
-<body class="login" >
+  <div class="header">9:10</div>
 
-   <form>
-    <div>
-        <img src="./assets/logo/logo 2.png" alt="logo htn">
-        <h1>Entre com sua conta</h1>
-
-        <p>Usuario:</p>
-        <input type="text" id="login" required placeholder="Usuário" >
-        <p></p>
-
-        <!--exibir senha no input-->
-        <p>Senha:</p>
-        <input type="password" id="senha" required placeholder="Senha">
-         <!--botão para mostrar/esconder senha-->
-         <i onclick="mostrarSenha()" class="bi bi-eye-fill"id="btn-senha"></i>
-        <!--mensagem de erro-->
-        <p id="errorMessage" style="color: red; font-size: 14px;"></p>
-
-        <div class="justify-center">
-            <button type="submit" onclick="logar(); return false">Entrar</button>
+  <div class="menu">
+    <div class="menu-icon">
+      <div></div>
+      <div></div>
+      <div></div>
     </div>
-   </form>
+    <div class="logo">htn▶</div>
+  </div>
 
-   <!-- Scripts -->
-   <script src="./assets/js/funsao_mostrar_senha.js"></script>
-   <script src="./assets/js/secure/monitoring_url.js"></script>
-   <script src="./assets/js/secure/disable_web.js"></script>
+  <div class="content-title">TOP VENDEDORES</div>
 
+  <div class="vendedor">
+    <p>Cód. Vendas: 25063 &nbsp;&nbsp; Total em Vendas: <strong>R$ 67.625,27</strong> <span class="icon">🏹</span></p>
+    <h3>ELIS PAULA MARQUES SOUZA</h3>
+    <p>Percentual realizado: 93,92%</p>
+  </div>
+
+  <div class="vendedor">
+    <p>Cód. Vendas: 32213 &nbsp;&nbsp; Total em Vendas: <strong>R$ 65.748,25</strong> <span class="icon">🏹</span></p>
+    <h3>EDUARDA SANTOS GUIMARÃES</h3>
+    <p>Percentual realizado: 91,32%</p>
+  </div>
+
+  <div class="vendedor">
+    <p>Cód. Vendas: 25171 &nbsp;&nbsp; Total em Vendas: <strong>R$ 63.481,21</strong> <span class="icon">🏹</span></p>
+    <h3>ESTER OLIVEIRA LIMA</h3>
+    <p>Percentual realizado: 88,17%</p>
+  </div>
+
+  <div class="vendedor">
+    <p>Cód. Vendas: 30372 &nbsp;&nbsp; Total em Vendas: <strong>R$ 57.511,97</strong> <span class="icon">🏹</span></p>
+    <h3>RHYAN ROBERTO LEMOS</h3>
+    <p>Percentual realizado: 79,88%</p>
+  </div>
+
+  <div class="footer">
+    <div class="bio">
+      <img src="https://cdn-icons-png.flaticon.com/512/2922/2922506.png" alt="Biometria" />
+      <span>Cadastrar Biometria</span>
+    </div>
+    <span>© 1980 Humanitarian Calçados</span>
+    <a href="#" class="logout">Sair</a>
+  </div>
 
 </body>
 </html>
